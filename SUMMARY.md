@@ -1,7 +1,6 @@
 # Table of contents
 
 * [README](README.md)
-* [test page from public](test-page-from-public.md)
 * [dev](dev/README.md)
   * [spring](dev/spring/README.md)
     * [cloud](dev/spring/cloud/README.md)
