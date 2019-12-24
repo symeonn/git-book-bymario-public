@@ -1,5 +1,7 @@
 # ELK
 
+![](../../.gitbook/assets/image-3.png)
+
 have to user same version of elasticsearch and kibana
 
 {% embed url="https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html\#install-elasticsearch" caption="" %}
