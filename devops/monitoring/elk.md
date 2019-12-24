@@ -1,4 +1,4 @@
-# elk
+# ELK
 
 have to user same version of elasticsearch and kibana
 

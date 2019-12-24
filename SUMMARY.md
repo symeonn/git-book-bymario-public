@@ -14,7 +14,6 @@
 * [sh](devops/sh.md)
 * [microservices](devops/microservices.md)
 * [MONITORING](devops/monitoring/README.md)
-  * [README](devops/monitoring/readme.md)
-  * [elk](devops/monitoring/elk.md)
+  * [ELK](devops/monitoring/elk.md)
 * [K8S](k8s.md)
 
