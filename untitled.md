@@ -30,3 +30,27 @@
 
 ### Bridge
 
+### Composite
+
+### Decorator
+
+### Facade
+
+### Flyweight
+
+### Proxy
+
+## Creational
+
+### Abstract Factory
+
+### Builder
+
+### Factory Method
+
+### Prototype
+
+### Singleton
+
+
+
