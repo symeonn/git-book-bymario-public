@@ -1,7 +1,10 @@
 # Table of contents
 
 * [README](README.md)
-* [Untitled](untitled.md)
+
+## dev
+
+* [Design Patterns](untitled.md)
 * [tmp](tmp/README.md)
   * [test-topic](tmp/test-topic/README.md)
     * [README](tmp/test-topic/readme.md)
