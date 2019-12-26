@@ -1,6 +1,6 @@
 # Java
 
-Default Methods
+## Default Methods
 
 added with _**default**_ keyword to the interface
 
@@ -9,4 +9,14 @@ do not require imlementation in the implementing class
 can be reimplemented or make abstract again in another interface that extends this one
 
 doesn't change the contract
+
+## Functional Interface
+
+* interface with Single Abstract Method \(SAM\)
+* can have many Default Methods
+* good to be annotated with @FunctionalInterface
+
+### Implenetations
+
+Function, Supplier, Consumer, Predicate, Operator
 
