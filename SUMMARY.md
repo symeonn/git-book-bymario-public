@@ -12,6 +12,7 @@
     * [test-subtopic](tmp/test-topic/test-subtopic.md)
   * [docker](tmp/docker.md)
 * [usefull-keys-add-here-exported-ij-settings](usefull-keys-add-here-exported-ij-settings.md)
+* [Contract testing](contract-testing.md)
 
 ## devops
 
