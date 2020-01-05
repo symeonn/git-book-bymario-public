@@ -69,7 +69,11 @@ payment processes, expense approval, any multi-step **workflow**
 example of workflow:  
 commit, tests, review, UAT, deploy \(imagine simple rollback\)
 
+Events issues:  
+not delivered  
+delivered twice
 
+Make event system "at-least-once-delivered-system" - Idempotence - property of operations that can be applied multiple times without changing the result
 
 No one starts with microservices \(there is no need\), but after some point there is need to move to microservices
 
@@ -82,6 +86,12 @@ ELT can be one of the services
 ## SOURCES
 
 {% embed url="https://www.infoq.com/presentations/microservices-managing-data/" %}
+
+## TODO
+
+check: CRDT - conflict replicated data types
+
+how to cope with order of events
 
 
 
