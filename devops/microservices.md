@@ -37,11 +37,7 @@ decouple apps from DB
 
 Single system \(service\) of record - entity should have only one home, one service, all other services/apps read from this service for data, every other copy is read-only cache
 
-#### Approach 1
-
 **Synchronous lookups** - services asks specific service on-demand, in real time \(may end up in lots of requests\)
-
-#### Approach 2
 
 **asynchronous events + local cache** - specific service sends update event when entity was changed
 
@@ -49,11 +45,7 @@ Single system \(service\) of record - entity should have only one home, one serv
 
 #### Problem: how to join tables from different services\)
 
-#### Approach 1
-
 **Join in client** - first get date from one service and then, using that data, query second service \(may face performance issues\)
-
-#### Approach 2
 
 **Materialized view** - create another service that keeps data from few services, it listens events directed to these services, has it's own DB \(used by noSQL, analytic systems, search engines\)
 
@@ -76,6 +68,8 @@ payment processes, expense approval, any multi-step **workflow**
 
 example of workflow:  
 commit, tests, review, UAT, deploy \(imagine simple rollback\)
+
+
 
 No one starts with microservices \(there is no need\), but after some point there is need to move to microservices
 
