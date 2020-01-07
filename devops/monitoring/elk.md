@@ -16,11 +16,7 @@ configuration
 
 [https://github.com/taskrabbit/elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump)
 
-```text
-$ elasticdump --limit 10000 --input "/c/Users/mario/Desktop/ELK/original/events-index_data-2019.12.11-01.50.json" --output=h
-ttp://localhost:9200/events
-
-```
+`$ elasticdump --limit 10000 --input "/c/Users/mario/Desktop/ELK/original/events-index_data-2019.12.11-01.50.json" --output=h`[`ttp://localhost:9200/events`](http://localhost:9200/events)\`\`
 
 ## Kibana
 

@@ -23,9 +23,7 @@ jar ft \[filename\].jar
 
 ## List apps using port
 
-```text
-netstat -aon | grep <port>
-```
+$ netstat -aon
 
 ## Aliases
 
