@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [IJ](README.md)
 
 ## dev
 
@@ -17,9 +17,10 @@
 ## devops
 
 * [Docker](devops/docker.md)
-* [K8S](k8s.md)
+* [K8S](devops/k8s.md)
 * [sh](devops/sh.md)
 * [microservices](devops/microservices.md)
 * [MONITORING](devops/monitoring/README.md)
   * [ELK](devops/monitoring/elk.md)
+* [index](untitled-1.md)
 
