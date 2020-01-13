@@ -4,7 +4,9 @@
 
 ## dev
 
+* [Soft skills](dev/soft-skills.md)
 * [Testing](dev/testing/README.md)
+  * [PBT](dev/testing/pbt.md)
   * [JUnit 5](dev/testing/junit-5.md)
   * [unit testing](dev/testing/unit-testing.md)
   * [front](dev/testing/front.md)
