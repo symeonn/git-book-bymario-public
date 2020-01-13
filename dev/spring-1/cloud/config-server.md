@@ -4,7 +4,7 @@
 
 there is a .yml file in configuration files \(hosted from Git\):
 
-![](../../../.gitbook/assets/image-8%20%281%29.png)
+![](../../../.gitbook/assets/image-8.png)
 
 and during config-server deployment it can be also set as \(using overrides\):
 
