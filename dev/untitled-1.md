@@ -1,4 +1,4 @@
-# index
+# DB
 
 ### CAP theorem
 
@@ -8,7 +8,7 @@ Partition tolerance
 
 In distributed database system only two of the following can be guaranteed:
 
-![](.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 ### ACID
 
@@ -48,7 +48,7 @@ ALL - all replicas should be written, QUORUN - majority \(RF=5 &gt; CL =3, etc\)
 
 #### Write
 
-![](.gitbook/assets/image-14.png)
+![](../.gitbook/assets/image-14.png)
 
 for each flush SSTable is created, later async merge process \(compaction\)
 
