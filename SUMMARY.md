@@ -26,12 +26,12 @@
   * [development](dev/concepts/development.md)
 * [Java](java.md)
 * [Design Patterns](untitled.md)
-* [usefull-keys-add-here-exported-ij-settings](usefull-keys-add-here-exported-ij-settings.md)
 * [Contract testing](contract-testing.md)
 
 ## devops
 
 * [IJ](devops/untitled-1/README.md)
+  * [usefull keys](devops/untitled-1/usefull-keys-add-here-exported-ij-settings.md)
   * [settings](devops/untitled-1/settings.md)
   * [Color Scheme](devops/untitled-1/color-scheme.md)
 * [Docker](devops/docker.md)
