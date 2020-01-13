@@ -16,7 +16,7 @@
 
 ## devops
 
-* [IJ](devops/untitled-1/README.md)
+* [IJ](devops/untitled-1.md)
   * [Color Scheme](devops/untitled-1/color-scheme.md)
 * [Docker](devops/docker.md)
 * [K8S](devops/k8s.md)
