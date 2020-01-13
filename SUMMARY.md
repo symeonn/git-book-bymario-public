@@ -4,6 +4,7 @@
 
 ## dev
 
+* [DWH](dev/dwh.md)
 * [DB](dev/untitled-1.md)
 * [ISSUES](dev/issues.md)
 * [git](dev/git.md)
