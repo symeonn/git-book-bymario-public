@@ -25,3 +25,15 @@ description: everything about Data Warehouse
 * load
 * transform
 
+## Optimization
+
+#### Transformata: 
+
+albo: select from \[all dim tables\] i agregowanie z tabeli stage  
+Można ograniczyć ilość wierszy z dim przez zawężenie wartości które występują w stage
+
+
+
+  
+albo: select from stage + join dim tables
+
