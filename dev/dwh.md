@@ -37,7 +37,7 @@ albo: select from \[all dim tables\] i agregowanie z tabeli stage
 Można ograniczyć ilość wierszy z dim przez zawężenie wartości które występują w stage  
   
 np:  
-dim\_school zamiast brać wsztstkie szkoły to najpierw biorę wszystkie school\_id z tabeli stage\_logins i w transformacie robię where dim\_school.school\_id in \(schools\_id\)
+dim\_school zamiast brać wszystkie szkoły to najpierw biorę wszystkie school\_id z tabeli stage\_logins i w transformacie robię where dim\_school.school\_id in \(schools\_id\)
 
 
 
