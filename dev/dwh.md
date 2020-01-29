@@ -23,6 +23,9 @@ description: everything about Data Warehouse
 
 ## Budowanie DWH
 
+* zacząć od jenkinsfile
+* dim\_\* tables \(na podstawie kolumn dostarczonych od produktu\)
+* export scripts + pre\_\*/stage\_\* tables \(może niektóre pre\_\* nie są potrzebne\)
 * tabeli fact z wymaganymi polami i dimensions FK + wymagane tabele dim
 * Jeśli dim\_table która jest enumem i nie ma odpowiedniej tabeli z której można eksportować - należy wartości wziąć se stage \(dla fact\) żeby mieć na pewno poprawne wartości
 * export ze stage
