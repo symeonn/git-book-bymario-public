@@ -24,6 +24,7 @@ description: everything about Data Warehouse
 ## Budowanie DWH
 
 * tabeli fact z wymaganymi polami i dimensions FK + wymagane tabele dim
+* Jeśli dim\_table która jest enumem i nie ma odpowiedniej tabeli z której można eksportować - należy wartości wziąć se stage \(dla fact\) żeby mieć na pewno poprawne wartości
 * export ze stage
 * Jenkinsfile \(to test export nad load, transform later\)
 * load
