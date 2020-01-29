@@ -23,7 +23,7 @@ description: everything about Data Warehouse
 
 ## Budowanie DWH
 
-* zacząć od jenkinsfile
+* zacząć od jenkinsfile + job 
 * dim\_\* tables \(na podstawie kolumn dostarczonych od produktu\)
 * export scripts + pre\_\*/stage\_\* tables \(może niektóre pre\_\* nie są potrzebne\)
 * * tabeli fact z wymaganymi polami i dimensions FK + wymagane tabele dim
