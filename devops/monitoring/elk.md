@@ -1,6 +1,6 @@
 # ELK
 
-![](../.gitbook/assets/image-3.png)
+![](../../.gitbook/assets/image-3.png)
 
 have to user same version of elasticsearch and kibana
 
@@ -31,7 +31,7 @@ configuration
 uncomment or add  
 `elasticsearch.hosts: ["http://localhost:9200"]`
 
-{% file src="../.gitbook/assets/elk.postman\_collection.json" %}
+{% file src="../../.gitbook/assets/elk.postman\_collection.json" %}
 
 ### POSTMAN
 

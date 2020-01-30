@@ -30,7 +30,7 @@
 
 ## devops
 
-* [ELK](devops/elk.md)
+* [ELK](devops/monitoring/elk.md)
 * [IJ](devops/untitled-1/README.md)
   * [usefull keys](devops/untitled-1/usefull-keys-add-here-exported-ij-settings.md)
   * [settings](devops/untitled-1/settings.md)
@@ -39,5 +39,5 @@
 * [K8S](devops/k8s.md)
 * [sh](devops/sh.md)
 * [microservices](devops/microservices.md)
-* [MONITORING](devops/monitoring.md)
+* [MONITORING](devops/monitoring/README.md)
 

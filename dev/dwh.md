@@ -30,7 +30,8 @@ description: everything about Data Warehouse
 * export scripts tylko dla dim 
 * import scripts + pre\_\*/stage\_\* tables \(może niektóre pre\_\* nie są potrzebne\) 
 * RUN jenskins job for testing
-* * tabeli fact z wymaganymi polami i dimensions FK + wymagane tabele dim
+* transform tylko dla dim\_\*
+* tabeli fact z wymaganymi polami i dimensions FK + wymagane tabele dim
 * Jeśli dim\_table która jest enumem i nie ma odpowiedniej tabeli z której można eksportować - należy wartości wziąć se stage \(dla fact\) żeby mieć na pewno poprawne wartości
 * export ze stage
 * Jenkinsfile \(to test export nad load, transform later\)
