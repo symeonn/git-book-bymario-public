@@ -33,6 +33,7 @@ description: everything about Data Warehouse
 * RUN jenskins job for testing
 * transform tylko dla dim\_\*
 * RUN
+* transform dla fact \(fields will be settled\) then pre/stage\_  , and fact\_ table\(s\)
 * * tabeli fact z wymaganymi polami i dimensions FK + wymagane tabele dim
 * Jeśli dim\_table która jest enumem i nie ma odpowiedniej tabeli z której można eksportować - należy wartości wziąć se stage \(dla fact\) żeby mieć na pewno poprawne wartości
 * export ze stage
