@@ -16,6 +16,7 @@ description: everything about Data Warehouse
 ## **Pytania przy tworzeniu raportów**
 
 * koniecznie ustalić nazwę raportu - ta nazwa będzie później używana wszędzie
+* na czy polega/co pokazuje raport - ogólnie
 * jakie pola w fact\_table powinny się znaleźć i są potrzebne do raporty \(PBI\)
 * jakie z tych pól będą wymiarami \(dim\_tables\)
 * czy wszystkie pola są potrzebne \(ze względu na wydajność\)
