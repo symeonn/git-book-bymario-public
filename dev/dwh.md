@@ -62,6 +62,8 @@ albo: select from stage + join dim tables
 Jeśli potrzebujemy proste agregaty i możemy zrobić group by
 
 Jeśli jest więcej subqueries potrzebnych to wtedy select from all dims  
-Jeśli jest więcej prostych agregatów to wtedy select from fact  
+Jeśli jest więcej prostych agregatów to wtedy select from fact
+
+It is maybe good idea to introduce another stage to first make transform with some subqueries and then another transform with simple aggregates  
 
 
