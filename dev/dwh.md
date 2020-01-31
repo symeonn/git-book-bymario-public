@@ -30,11 +30,11 @@ description: everything about Data Warehouse
 * dim\_\* tables \(na podstawie kolumn dostarczonych od produktu\)
 * export scripts tylko dla dim 
 * import scripts + pre\_\*/stage\_\* tables \(może niektóre pre\_\* nie są potrzebne\) 
-* RUN jenskins job for testing
+* RUN jenskins job for testing, when no errors limit results for 100k for dev purposes
 * transform tylko dla dim\_\*
 * RUN
 * transform dla fact \(fields will be settled\) then pre/stage\_  , and fact\_ table\(s\)
-* do transform: get 2, 3 dims and apply them then create aggregates and check if values are correct then apply rest of dimensions nad check some values
+* hints for transform: get 2, 3 dims and apply them then create aggregates and check if values are correct then apply rest of dimensions nad check some values
 * * tabeli fact z wymaganymi polami i dimensions FK + wymagane tabele dim
 * Jeśli dim\_table która jest enumem i nie ma odpowiedniej tabeli z której można eksportować - należy wartości wziąć se stage \(dla fact\) żeby mieć na pewno poprawne wartości
 * export ze stage
