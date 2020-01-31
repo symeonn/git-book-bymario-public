@@ -61,3 +61,7 @@ dim\_school zamiast brać wszystkie szkoły to najpierw biorę wszystkie school\
 albo: select from stage + join dim tables  
 Jeśli potrzebujemy proste agregaty i możemy zrobić group by
 
+Jeśli jest więcej subqueries potrzebnych to wtedy select from all dims  
+Jeśli jest więcej prostych agregatów to wtedy select from fact  
+
+
