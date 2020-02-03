@@ -45,6 +45,11 @@ description: everything about Data Warehouse
 
 ## Optimization
 
+#### EXPORT
+
+Do minimum number of joins possible.   
+Export raw data and join it on the DWH side using stage tables
+
 #### Transformata: 
 
 albo: select from \[all dim tables\] i agregowanie z tabeli stage  
