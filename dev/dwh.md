@@ -47,7 +47,7 @@ description: everything about Data Warehouse
 
 #### EXPORT
 
-Do minimum number of joins possible.   
+Do minimum number of joins possible \(is there minimum optimal join number?\)  
 Export raw data and join it on the DWH side using stage tables
 
 #### Transformata: 
