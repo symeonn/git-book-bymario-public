@@ -73,5 +73,5 @@ Jeśli jest więcej prostych agregatów to wtedy select from fact
 It is maybe good idea to introduce another stage to first make transform with some subqueries and then another transform with simple aggregates  
 
 
-When lots of dims comes from one domain entity it schold be considered to be seperate fact/dim table with seperate export 
+When lots of dimensions comes from one domain entity it should be considered to be separate fact/dim table with separate export so the report takes from another table so fact table will not be huge and transform will not be expensive
 
