@@ -33,29 +33,48 @@ query file content example:
 
 ```text
 var collection = db.getCollection('curriculum_group_tree').aggregate([
-// {$limit: 1},
+    // {$limit: 1},
+    {$addFields: {"publishedLearningFactors.childFactors.childFactors.currName": "$name"}},
 
-{ $addFields: { "publishedLearningFactors.childFactors.childFactors.childFactors.childFactors.currName": "$name"} },
-    
-{$project: { a: "$publishedLearningFactors.childFactors.childFactors.childFactors.childFactors"}},
+    {$project: {chlf: "$publishedLearningFactors.childFactors.childFactors"}},
 
-{ $unwind: "$a" },
-{ $unwind: "$a" },
-{ $unwind: "$a" },
-{ $unwind: "$a" },
-{ $unwind: "$a" },
-{ $addFields: { "a.subIds": "$a.linkedSourceList.subcategoryIdList"} },
-{$project: {
-//     "a._id": 1, 
-    "a.currName": 1,  "a.name": 1, "a.subIds":1}},
+    {$unwind: "$chlf"},
+    {$unwind: "$chlf"},
+    {$unwind: "$chlf"},
+    {
+        $addFields: {
+            "chlf.subIds": {
+                "$reduce": {
+                    "input": "$chlf.linkedSourceList.subcategoryIdList",
+                    "initialValue": [],
+                    in: {$concatArrays: ["$$value", "$$this"]}
+                }
+            }
+        }
+    },
 
-{$group:{_id:'a',res:{$addToSet:'$a'}}},
+    {
+        $project: {
+            "chlf._id": 1, "chlf.currName": 1, "chlf.name": 1, "chlf.subIds": 1
+        }
+    },
 
+    {$replaceRoot: {newRoot: "$chlf"}},
 ]);
 
- while ( collection.hasNext() ) {
-   printjson( collection.next() );
+while (collection.hasNext()) {
+    var element = collection.next();
+
+    if (element.subIds && element.subIds.length > 0) {
+        for (var item of element.subIds) {
+            print(element._id.hex() + "," + JSON.stringify(element.name) + "," + element.currName + "," + item);
+        }
+    } else {
+        print(element._id.hex() + "," + JSON.stringify(element.name) + "," + element.currName + ",");
+    }
+
 }
+
 ```
 
 CLI:
