@@ -25,6 +25,43 @@ relational DB are optimized for fast writes \(entities are granulated\) and when
 
 noSQL are opposite of above - every table is already the query result, so you need to know all queries upfront
 
+## MongoDB
+
+### Export query result to JSON
+
+query file content example:
+
+```text
+var collection = db.getCollection('curriculum_group_tree').aggregate([
+// {$limit: 1},
+
+{ $addFields: { "publishedLearningFactors.childFactors.childFactors.childFactors.childFactors.currName": "$name"} },
+    
+{$project: { a: "$publishedLearningFactors.childFactors.childFactors.childFactors.childFactors"}},
+
+{ $unwind: "$a" },
+{ $unwind: "$a" },
+{ $unwind: "$a" },
+{ $unwind: "$a" },
+{ $unwind: "$a" },
+{ $addFields: { "a.subIds": "$a.linkedSourceList.subcategoryIdList"} },
+{$project: {
+//     "a._id": 1, 
+    "a.currName": 1,  "a.name": 1, "a.subIds":1}},
+
+{$group:{_id:'a',res:{$addToSet:'$a'}}},
+
+]);
+
+ while ( collection.hasNext() ) {
+   printjson( collection.next() );
+}
+```
+
+CLI:
+
+mongo -u &lt;username&gt; -p &lt;password&gt; --quiet &lt;dbName&gt; &lt;queryFilePath&gt;.js &gt; &lt;resultFileName&gt;.json
+
 ## Cassandra
 
 ```text
