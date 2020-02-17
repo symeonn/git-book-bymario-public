@@ -8,5 +8,5 @@ spring framework provides structure and patterns to make developing process easi
 
 Dependency Injection - Spring creates objects and put them in context, then Spring inject these objects as dependencies when needed
 
-Inverse of Control - framework manages all the dependencies and puts your application in this
+Inverse of Control - framework manages all the dependencies and puts your application in this \(instead i have to include libraries into my app\)
 
