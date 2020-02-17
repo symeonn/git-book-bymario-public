@@ -22,7 +22,7 @@ description: everything about Data Warehouse
 * czy wszystkie pola są potrzebne \(ze względu na wydajność\)
 * czy pre\_stage są potrzebne i jeśli tak to ile poziomów
 
-## Budowanie DWH
+## Budowanie DWH pipeline
 
 * zacząć od jenkinsfile + job 
   * time\_marker
