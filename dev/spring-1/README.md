@@ -10,3 +10,9 @@ Dependency Injection - Spring creates objects and put them in context, then Spri
 
 Inverse of Control - framework manages all the dependencies and puts your application in this \(instead i have to include libraries into my app\) \(Hollywood principle\)
 
+#### DB access
+
+repository, query methods
+
+#### Spring MVC
+
