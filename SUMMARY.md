@@ -4,13 +4,15 @@
 
 ## dev
 
+* [Events](dev/events/README.md)
+  * [RabbitMQ](dev/events/rabbitmq.md)
 * [Reactive API](dev/reactive-api.md)
 * [Soft skills](dev/soft-skills.md)
 * [Testing](dev/testing/README.md)
   * [PBT](dev/testing/pbt.md)
   * [JUnit 5](dev/testing/junit-5.md)
   * [unit testing](dev/testing/unit-testing.md)
-  * [Contract testing](dev/testing/contract-testing.md)
+  * [Contract testing](contract-testing.md)
   * [front](dev/testing/front.md)
 * [Front](dev/front.md)
 * [Security](dev/security.md)
@@ -23,14 +25,14 @@
   * [cache](dev/spring-1/cache.md)
   * [Cloud](dev/spring-1/cloud/README.md)
     * [config server](dev/spring-1/cloud/config-server.md)
-* [Java](dev/java.md)
+* [Java](java.md)
 * [CONCEPTS](dev/concepts/README.md)
   * [development](dev/concepts/development.md)
-  * [Design Patterns](dev/concepts/untitled.md)
+  * [Design Patterns](untitled.md)
 
 ## devops
 
-* [ELK](devops/elk.md)
+* [ELK](devops/monitoring/elk.md)
 * [IJ](devops/untitled-1/README.md)
   * [usefull keys](devops/untitled-1/usefull-keys-add-here-exported-ij-settings.md)
   * [settings](devops/untitled-1/settings.md)
@@ -39,5 +41,5 @@
 * [K8S](devops/k8s.md)
 * [sh](devops/sh.md)
 * [microservices](devops/microservices.md)
-* [MONITORING](devops/monitoring.md)
+* [MONITORING](devops/monitoring/README.md)
 
