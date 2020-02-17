@@ -21,3 +21,5 @@ Types
 
 ### Consumer
 
+registers to queue\(s\) and when the msg arrives consumer get notified about it or receive msg right away
+
