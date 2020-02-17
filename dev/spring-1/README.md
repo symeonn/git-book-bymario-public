@@ -16,3 +16,5 @@ repository, query methods
 
 #### Spring MVC
 
+dynamic web page, REST API
+
