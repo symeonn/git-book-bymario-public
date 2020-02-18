@@ -26,5 +26,13 @@
 
 ### MAP
 
+## Big O notation \(**Asymptotyczne tempo wzrostu\)**
 
+miara określająca zachowanie wartości funkcji wraz ze wzrostem jej argumentów
+
+![Big-O Complexity Chart](../../.gitbook/assets/image.png)
+
+![Common Data Structure Operations](../../.gitbook/assets/image%20%281%29.png)
+
+![Array Sorting Algorithms](../../.gitbook/assets/image%20%283%29.png)
 
