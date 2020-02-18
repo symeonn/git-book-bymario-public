@@ -27,6 +27,7 @@
     * [config server](dev/spring-1/cloud/config-server.md)
 * [Java](java.md)
   * [Generics](dev/java/generics.md)
+  * [Collections](dev/java/collections.md)
 * [CONCEPTS](dev/concepts/README.md)
   * [development](dev/concepts/development.md)
   * [Design Patterns](untitled.md)
