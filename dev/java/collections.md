@@ -28,7 +28,7 @@
 
 ## Big O notation \(**Asymptotyczne tempo wzrostu\)**
 
-miara określająca zachowanie wartości funkcji wraz ze wzrostem jej argumentów
+miara określająca zachowanie wartości funkcji wraz ze wzrostem ilości jej argumentów
 
 ![Big-O Complexity Chart](../../.gitbook/assets/image.png)
 
