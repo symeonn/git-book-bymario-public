@@ -36,3 +36,5 @@ miara określająca zachowanie wartości funkcji wraz ze wzrostem ilości jej ar
 
 ![Array Sorting Algorithms](../../.gitbook/assets/image%20%283%29.png)
 
+{% file src="../../.gitbook/assets/java-collections-cheat-sheet.pdf" %}
+
