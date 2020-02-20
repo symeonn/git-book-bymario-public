@@ -22,11 +22,7 @@
 
 ### LIST
 
-#### ArrayList - dynamically array stores value and index
-
-#### Linked list - each node has value and reference to the next node
-
-
+#### 
 
 ### MAP
 
