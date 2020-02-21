@@ -8,7 +8,7 @@ Partition tolerance
 
 In distributed database system only two of the following can be guaranteed:
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 ### ACID
 
