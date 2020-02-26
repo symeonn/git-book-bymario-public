@@ -9,6 +9,7 @@
 * [Reactive API](dev/reactive-api.md)
 * [Soft skills](dev/soft-skills.md)
 * [Testing](dev/testing/README.md)
+  * [Mockito](dev/testing/mockito.md)
   * [PBT](dev/testing/pbt.md)
   * [JUnit 5](dev/testing/junit-5.md)
   * [unit testing](dev/testing/unit-testing.md)
