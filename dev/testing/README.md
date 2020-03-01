@@ -10,17 +10,17 @@ Tests by level:
 
 Tests by testing metchods:
 
-* Black-box testing
-* White-box testing
+* Black-box testing - behavioral testing, INPUT and OUTPUT matters
+* White-box testing - choose INPUT that goes through the code \(Unit testing\)
 
 Tests by type:
 
-* Regression testing
+* Regression testing - ensures that changes to the software does not brake any part of it
 * Performance testing
-* Functional testing
-* Smoke testing
+* Functional testing - testing requirements/specifications \(functions\) of the application
+* Smoke testing - Build Verification Testing, light part of test just to confirm that app is bootable and most important functions work, build is stable enough for further testing
 
-in new \(whitch?\) version of Mockito when use anyString\(\) or any\(String.class\) etc. it will not mock the method if there will be null send as parameter. For that any\(\) have to be used.
+in new \(which?\) version of Mockito when use anyString\(\) or any\(String.class\) etc. it will not mock the method if there will be null send as parameter. For that any\(\) have to be used.
 
 ### TDD
 
