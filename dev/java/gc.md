@@ -17,5 +17,11 @@ Steps
 2. Normal Deletion
 3. Deletion with Compacting
 
+## JVM Generations
 
+![](../../.gitbook/assets/image%20%289%29.png)
+
+##  **Island of isolation**
+
+When object A reference object B, and object B references object A, but non of these objects is referenced by any other object in whole application
 
