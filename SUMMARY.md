@@ -28,6 +28,7 @@
   * [Cloud](dev/spring-1/cloud/README.md)
     * [config server](dev/spring-1/cloud/config-server.md)
 * [Java](dev/java/README.md)
+  * [GC](dev/java/gc.md)
   * [Generics](dev/java/generics.md)
   * [Collections](dev/java/collections.md)
 * [CONCEPTS](dev/concepts/README.md)

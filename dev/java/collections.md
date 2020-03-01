@@ -36,9 +36,9 @@ miara określająca zachowanie wartości funkcji wraz ze wzrostem ilości jej ar
 
 ![Big-O Complexity Chart](../../.gitbook/assets/image.png)
 
-![Common Data Structure Operations](../../.gitbook/assets/image%20%284%29.png)
+![Common Data Structure Operations](../../.gitbook/assets/image%20%285%29.png)
 
-![Array Sorting Algorithms](../../.gitbook/assets/image%20%286%29.png)
+![Array Sorting Algorithms](../../.gitbook/assets/image%20%287%29.png)
 
 {% file src="../../.gitbook/assets/java-collections-cheat-sheet.pdf" %}
 
