@@ -19,3 +19,18 @@ repository, query methods
 
 dynamic web page, REST API
 
+### Bean scopes
+
+* singleton
+* prototype
+* request\*
+* session\*
+
+#### Bean annotations
+
+@Component - during ComponentScan Spring automatically detects beans with this annotation  
+@Repository - data access layer class \(translates persistence framework exeptions to DataAccessExeptions\)  
+@Service - business logic class  
+@Controller - MVC  
+@Configuration - contains bean definition methods 
+
