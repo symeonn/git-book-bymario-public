@@ -36,7 +36,7 @@ So if you see `~1.0.2` it means to install version `1.0.2` or the latest patch v
 
 ### Functional programming
 
-use function without side-effects, only return the result and combine with another and set as parameter of another function
+use function without side-effects, only return the result and combine with another and set as parameter of another function. Avoid changing state or mutation.
 
 ### Procedural programming
 
