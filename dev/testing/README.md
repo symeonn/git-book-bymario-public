@@ -20,8 +20,6 @@ Tests by type:
 * Functional testing - testing requirements/specifications \(functions\) of the application
 * Smoke testing - Build Verification Testing, light part of test just to confirm that app is bootable and most important functions work, build is stable enough for further testing
 
-in new \(which?\) version of Mockito when use anyString\(\) or any\(String.class\) etc. it will not mock the method if there will be null send as parameter. For that any\(\) have to be used.
-
 ### TDD
 
 test is written to check the implementation of functionality
