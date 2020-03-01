@@ -6,7 +6,6 @@
 
 * [Events](dev/events/README.md)
   * [RabbitMQ](dev/events/rabbitmq.md)
-* [Reactive API](dev/reactive-api.md)
 * [Soft skills](dev/soft-skills.md)
 * [Testing](dev/testing/README.md)
   * [Mockito](dev/testing/mockito.md)
@@ -28,6 +27,7 @@
   * [Cloud](dev/spring-1/cloud/README.md)
     * [config server](dev/spring-1/cloud/config-server.md)
 * [Java](dev/java/README.md)
+  * [Reactive API](dev/java/reactive-api.md)
   * [GC](dev/java/gc.md)
   * [Generics](dev/java/generics.md)
   * [Collections](dev/java/collections.md)
