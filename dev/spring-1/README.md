@@ -40,5 +40,6 @@ When have prototype bean \(B\) in singleton bean \(A\), the B is initialized onl
 Solutions:
 
 * Injecting _ApplicationContext -_ so we can initialize each time we do getBean
-* use @Lookup - 
+* use @Lookup on method - Spring will override method and use method's return type as parameter of getBean
+* user ObjectFactory - will produce new object \(B\) each time we request for it
 
