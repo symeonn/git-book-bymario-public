@@ -34,3 +34,11 @@ dynamic web page, REST API
 **@Controller** - MVC  
 **@Configuration** - contains bean definition methods 
 
+####  S**coped bean injection problem**
+
+When have prototype bean \(B\) in singleton bean \(A\), the B is initialized only once when A is initialized.  
+Solutions:
+
+* Injecting _ApplicationContext -_ so we can initialize each time we do getBean
+* use @Lookup - 
+
