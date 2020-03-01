@@ -23,5 +23,6 @@ Steps
 
 ##  **Island of isolation**
 
-When object A reference object B, and object B references object A, but non of these objects is referenced by any other object in whole application
+When object A reference object B, and object B references object A, but non of these objects is referenced by any other object in whole application.  
+If objects A or B are not references by any GC root object \(threads, static variables, local variables etc\), A and B will be collected.
 
