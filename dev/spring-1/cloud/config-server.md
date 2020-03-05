@@ -21,3 +21,7 @@ spring:
           foo: bar
 ```
 
+## How spring cloud server gets the conf files 
+
+![](../../../.gitbook/assets/image%20%286%29.png)
+
