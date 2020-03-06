@@ -75,7 +75,7 @@ It like with microservices: build lots of small responsibilities and compose the
 Too many is better than too few
 
 **WHY:**  
-Client should not be forced to use functionalities that he doesn't need.
+Client should not be forced to use or implement functionalities that he doesn't need.
 
 **HOW:**  
 Split large interfaces into smaller and more specific ones \(role interfaces\)
