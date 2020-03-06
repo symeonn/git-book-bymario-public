@@ -29,7 +29,7 @@ When changing the code according changes from one specification/functionality br
 
 ## Open / close
 
-Class should be open for extension but closed for modification
+Class should be open for extension, but closed for modification
 
 You should be able to extend class's behavior without modifying it \(rewriting\)
 
