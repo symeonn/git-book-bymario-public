@@ -41,9 +41,14 @@ when S is subtype of T.
 
 If it looks like a duck, quack like a duck but needs batteries - probably wrong abstraction
 
-WHY:
+WHY:  
+Any system should be working with any implementation of interface
 
-HOW:
+HOW:   
+By using pre-conditions of methods to be weaker and post-conditions to be stronger  
+ex:   
+pre-cond: base - work with int; sub - work with positive only int NOT WEAKER  
+post-cond: base - work with positive int; sub - work with negative int NOT STRONGER
 
 WHEN breaks:  
 when add new subclass and it comes that not all properties or methods are applicable or methods should behave differently
