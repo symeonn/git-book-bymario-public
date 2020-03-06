@@ -85,13 +85,19 @@ When client needs to implement and stub unnecessary methods
 
 ## Dependency Inversion
 
-class should depend on adstraction not implementation
+High-level modules/classes should not depend on low-level modules/classes. Both should depend on abstraction \(interfaces/abstracts\)
 
-**WHY:**
+Depend on abstraction, not on details \(implementation\)
 
-**HOW:**
+**WHY:**  
+Decouples modules/classes in system, increases reusability and flexibility of code.  
+Increases testability because we can inject mocks into another objects or methods
 
-**WHEN breaks:**
+**HOW:**  
+Extract behaviors, create abstraction of these behaviors and inject them as dependencies in "constructor injection"" or "parameter Injection"
+
+**WHEN breaks:**  
+When we use "new" keyword, instantiating low-level objects in methods or in another high-level objects
 
 ## SOURCES
 
