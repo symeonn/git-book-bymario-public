@@ -94,10 +94,10 @@ Decouples modules/classes in system, increases reusability and flexibility of co
 Increases testability because can inject mocks into another objects or methods
 
 **HOW:**  
-Extract behaviors, create abstraction of these behaviors and inject them as dependencies in "constructor injection"" or "parameter Injection"
+Extract behaviors, create abstraction of these behaviors and inject them as dependencies in "constructor injection" or "parameter injection"
 
 **WHEN breaks:**  
-When we use "new" keyword, instantiating low-level objects in methods or in another high-level objects
+"new" keyword is the signal for checking, instantiating low-level objects in methods or in another high-level objects
 
 ## SOURCES
 
