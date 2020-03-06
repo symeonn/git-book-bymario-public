@@ -91,7 +91,7 @@ Depend on abstraction, not on details \(implementation\)
 
 **WHY:**  
 Decouples modules/classes in system, increases reusability and flexibility of code.  
-Increases testability because we can inject mocks into another objects or methods
+Increases testability because can inject mocks into another objects or methods
 
 **HOW:**  
 Extract behaviors, create abstraction of these behaviors and inject them as dependencies in "constructor injection"" or "parameter Injection"
