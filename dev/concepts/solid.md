@@ -9,14 +9,23 @@ description: >-
 
 ## Single responsibility
 
-class should have only one responsibility  
-class should change only when specific part of specification change
+Class should have only one responsibility.
 
-WHY:
+Class should have onlu one reason to change, to be rewritten
 
-HOW:
+Class should only change when specific part of specification changes
 
-WHEN breaks:
+Responsibility should be encapsulated by class, module or function
+
+**WHY:**  
+It makes class more robust \(krzepki\)
+
+**HOW:**  
+By encapsulation
+
+**WHEN breaks:**  
+When class, module or function has more than one responsibility or its name is not adequate to the behavior.  
+When changing the code according changes from one specification/functionality breaks another specification/functionality
 
 ## Open / close
 
@@ -24,13 +33,13 @@ Class should be open for extension but closed for modification
 
 You should be able to extend class's behavior without modifying it \(rewriting\)
 
-WHY:  
-makes code maintainable and reusable
+**WHY:**  
+Makes code maintainable and reusable
 
-HOW:  
+**HOW:**  
 By abstraction. If system \(client\) will work with interface, it will work with any implementation of that interface
 
-WHEN breaks:  
+**WHEN breaks:**  
 When adding new specification \(behavior\) there is a need to rewrite code base
 
 ## Liskov substitution
@@ -41,17 +50,17 @@ when S is subtype of T.
 
 If it looks like a duck, quack like a duck but needs batteries - probably wrong abstraction
 
-WHY:  
+**WHY:**  
 Any system should be working with any implementation of interface
 
-HOW:   
+**HOW:**   
 By using pre-conditions of methods to be weaker and post-conditions to be stronger  
 ex:   
 pre-cond: base - work with int; sub - work with positive only int NOT WEAKER  
 post-cond: base - work with positive int; sub - work with negative int NOT STRONGER
 
-WHEN breaks:  
-when add new subclass and it comes that not all properties or methods are applicable or methods should behave differently
+**WHEN breaks:**  
+When add new subclass and it comes that not all properties or methods are applicable or methods should behave differently
 
 ## Interface segregation
 
@@ -65,24 +74,24 @@ It like with microservices: build lots of small responsibilities and compose the
 
 Too many is better than too few
 
-WHY:  
+**WHY:**  
 Client should not be forced to use functionalities that he doesn't need.
 
-HOW:
+**HOW:**
 
-WHEN breaks:
+**WHEN breaks:**
 
 ## Dependency Inversion
 
 class should depend on adstraction not implementation
 
-WHY:
+**WHY:**
 
-HOW:
+**HOW:**
 
-WHEN breaks:
+**WHEN breaks:**
 
-#### SOURCE:
+## SOURCES
 
 {% embed url="https://hackernoon.com/solid-principles-made-easy-67b1246bcdf" %}
 
