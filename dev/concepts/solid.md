@@ -1,3 +1,10 @@
+---
+description: >-
+  design principles encourage us to create more maintainable, understandable,
+  and flexible software. Consequently, as our applications grow in size, we can
+  reduce their co
+---
+
 # SOLID
 
 ## Single responsibility
@@ -34,7 +41,8 @@ WHY:
 
 HOW:
 
-WHEN breaks:
+WHEN breaks:  
+when add new subclass and it comes that not all properties or methods are applicable or methods should behave differently
 
 ## Interface segregation
 
@@ -64,4 +72,10 @@ WHY:
 HOW:
 
 WHEN breaks:
+
+#### SOURCE:
+
+{% embed url="https://hackernoon.com/solid-principles-made-easy-67b1246bcdf" %}
+
+\(add linkedIn post to promote\)
 
