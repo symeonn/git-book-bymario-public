@@ -20,14 +20,18 @@ WHEN breaks:
 
 ## Open / close
 
-Class should be open for extension but closed for modification  
-polymorphism ?
+Class should be open for extension but closed for modification
 
-WHY:
+You should be able to extend class's behavior without modifying it \(rewriting\)
 
-HOW:
+WHY:  
+makes code maintainable and reusable
 
-WHEN breaks:
+HOW:  
+By abstraction. If system \(client\) will work with interface, it will work with any implementation of that interface
+
+WHEN breaks:  
+When adding new specification \(behavior\) there is a need to rewrite code base
 
 ## Liskov substitution
 
