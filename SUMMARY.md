@@ -32,6 +32,7 @@
   * [Generics](dev/java/generics.md)
   * [Collections](dev/java/collections.md)
 * [CONCEPTS](dev/concepts/README.md)
+  * [SOLID](dev/concepts/solid.md)
   * [HTTP](dev/concepts/http.md)
   * [development](dev/concepts/development.md)
   * [Design Patterns](dev/concepts/untitled.md)
