@@ -58,27 +58,3 @@ void getEntity() {
 
 functionalities and data are encapsulated into objects. Selection of objects happens in the runtime.
 
-## SOLID
-
-### Single responsibility
-
-class should have only one responsibility  
-class should change only when specific part of specification change
-
-### Open / close
-
-Class should be open for extension but closed for modification  
-polymorphism ?
-
-### Liskov substitution
-
-if it looks like a duck, quack like a duck but needs batteries - probably wrong abstraction
-
-### Interface segregation
-
-many client specific interfaces are better than few vast interfaces \(general purpose\)
-
-### Dependency Inversion
-
-class should depend on adstraction not implementation
-
