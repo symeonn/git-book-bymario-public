@@ -5,10 +5,22 @@
 class should have only one responsibility  
 class should change only when specific part of specification change
 
+WHY:
+
+HOW:
+
+WHEN breaks:
+
 ## Open / close
 
 Class should be open for extension but closed for modification  
 polymorphism ?
+
+WHY:
+
+HOW:
+
+WHEN breaks:
 
 ## Liskov substitution
 
@@ -46,4 +58,10 @@ WHEN breaks:
 ## Dependency Inversion
 
 class should depend on adstraction not implementation
+
+WHY:
+
+HOW:
+
+WHEN breaks:
 
