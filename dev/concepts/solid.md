@@ -11,7 +11,7 @@ description: >-
 
 Class should have only one responsibility.
 
-Class should have onlu one reason to change, to be rewritten
+Class should have only one reason to change, to be rewritten
 
 Class should only change when specific part of specification changes
 
