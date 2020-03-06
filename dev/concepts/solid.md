@@ -12,7 +12,17 @@ polymorphism ?
 
 ## Liskov substitution
 
-if it looks like a duck, quack like a duck but needs batteries - probably wrong abstraction
+Assume that Q\(x\) means a property of instance **x**, and that **x** is of type T.  
+Than we can say that Q\(y\) is the same property of instance **y** that is of type S,  
+when S is subtype of T.
+
+If it looks like a duck, quack like a duck but needs batteries - probably wrong abstraction
+
+WHY:
+
+HOW:
+
+WHEN breaks:
 
 ## Interface segregation
 
@@ -28,6 +38,10 @@ Too many is better than too few
 
 WHY:  
 Client should not be forced to use functionalities that he doesn't need.
+
+HOW:
+
+WHEN breaks:
 
 ## Dependency Inversion
 
