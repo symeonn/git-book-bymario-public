@@ -60,7 +60,7 @@ pre-cond: base - work with int; sub - work with positive only int NOT WEAKER
 post-cond: base - work with positive int; sub - work with negative int NOT STRONGER
 
 **WHEN breaks:**  
-When add new subclass and it comes that not all properties or methods are applicable or methods should behave differently
+When add new subclass and not all properties or methods are applicable or methods should behave differently
 
 ## Interface segregation
 
