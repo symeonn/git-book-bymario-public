@@ -77,9 +77,11 @@ Too many is better than too few
 **WHY:**  
 Client should not be forced to use functionalities that he doesn't need.
 
-**HOW:**
+**HOW:**  
+Split large interfaces into smaller and more specific ones \(role interfaces\)
 
-**WHEN breaks:**
+**WHEN breaks:**  
+When client needs to implement and stub unnecessary methods
 
 ## Dependency Inversion
 
