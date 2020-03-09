@@ -22,7 +22,7 @@ By encapsulation
 When class, module or function has more than one responsibility or its name is not adequate to the behavior.  
 When changing the code according changes from one specification/functionality breaks another specification/functionality
 
-## Open / close
+## Open / closed
 
 Class should be open for extension, but closed for modification
 
