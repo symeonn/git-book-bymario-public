@@ -18,7 +18,7 @@ It makes class more robust \(krzepki\)
 **HOW:**  
 By encapsulation
 
-**WHEN breaks:**  
+**WHEN BREAKS:**  
 When class, module or function has more than one responsibility or its name is not adequate to the behavior.  
 When changing the code according changes from one specification/functionality breaks another specification/functionality
 
@@ -34,7 +34,7 @@ Makes code maintainable and reusable
 **HOW:**  
 By abstraction. If system \(client\) will work with interface, it will work with any implementation of that interface
 
-**WHEN breaks:**  
+**WHEN BREAKS:**  
 When adding new specification \(behavior\) there is a need to rewrite code base
 
 ## Liskov substitution
@@ -54,7 +54,7 @@ ex:
 pre-cond: base - work with int; sub - work with positive only int NOT WEAKER  
 post-cond: base - work with positive int; sub - work with negative int NOT STRONGER
 
-**WHEN breaks:**  
+**WHEN BREAKS:**  
 When add new subclass and not all properties or methods are applicable or methods should behave differently
 
 ## Interface segregation
@@ -75,7 +75,7 @@ Client should not be forced to use or implement functionalities that he doesn't 
 **HOW:**  
 Split large interfaces into smaller and more specific ones \(role interfaces\)
 
-**WHEN breaks:**  
+**WHEN BREAKS:**  
 When client needs to implement and stub unnecessary methods
 
 ## Dependency Inversion
@@ -91,7 +91,7 @@ Increases testability because can inject mocks into another objects or methods
 **HOW:**  
 Extract behaviors, create abstraction of these behaviors and inject them as dependencies in "constructor injection" or "parameter injection"
 
-**WHEN breaks:**  
+**WHEN BREAKS:**  
 "new" keyword is the signal for checking, instantiating low-level objects in methods or in another high-level objects
 
 ## SOURCES
