@@ -39,6 +39,7 @@
 
 ## devops
 
+* [Redis](devops/redis.md)
 * [ELK](devops/elk.md)
 * [IJ](devops/untitled-1/README.md)
   * [usefull keys](devops/untitled-1/usefull-keys-add-here-exported-ij-settings.md)
