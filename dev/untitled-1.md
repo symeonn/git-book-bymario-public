@@ -10,9 +10,9 @@ In distributed database system only two of the following can be guaranteed:
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-### ACID
+### ACID \(transactions\)
 
-Atomicty  
+Atomicity  
 Consistency  
 Isolation  
 Durability
