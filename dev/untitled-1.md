@@ -1,6 +1,6 @@
 # DB
 
-### CAP theorem
+## CAP theorem
 
 Consistency  
 Availability  
@@ -10,16 +10,27 @@ In distributed database system only two of the following can be guaranteed:
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-### ACID \(transactions\)
+## ACID \(transactions\)
 
-Atomicity  
-Consistency  
-Isolation  
-Durability
+### Atomicity
 
-### RDBMS - relational database management system
+Transactions composed with several statements should execute all statements on none. Success completely or fail completely
 
-### Relational vs. noSQL
+### Consistency
+
+Every transaction should leave system in consistent state. Put system from one valid state to another valid state
+
+### Isolation
+
+Concurrent transactions should leave system in same state as they would be run in sequential. Effect of one incomplete transaction should have no effect on others concurrent transactions  
+
+### Durability
+
+Once transaction is successfully committed, state of the system should remain even after system failure 
+
+## RDBMS - relational database management system
+
+## Relational vs. noSQL
 
 relational DB are optimized for fast writes \(entities are granulated\) and when we query for complex objects we need to join tables together
 
