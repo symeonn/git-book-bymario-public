@@ -8,7 +8,7 @@ Partition tolerance
 
 In distributed database system only two of the following can be guaranteed:
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 ## ACID \(transactions\)
 
@@ -146,4 +146,10 @@ desc tables;`
 denormalize - put data from some tables into another one to prevent joins and increase performance, but this approach introduces data redundancy
 
 sharding - different data on different masters, DBs, different places
+
+## TRUNCATE vs DELETE
+
+TRUNCATE TABLE deletes all records in a table by deallocating the data pages used by the table. This reduces the resource overhead of logging the deletions, as well as the number of locks acquired. Records cannot be restored. Cannot specify a WHERE clause, it is all or nothing.
+
+DELETE TABLE statements delete rows one at a time, logging each row in the transaction log, as well as maintaining log sequence number \(LSN\) information. Although this consumes more database resources and locks, these transactions can be rolled back if necessary. You can also specify a WHERE clause.
 

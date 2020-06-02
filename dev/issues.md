@@ -14,7 +14,7 @@ Docker &gt; spring &gt; resource messages &gt; no support for messages\_en\_au.p
 
 ## @Builder.Default vs @NoArgsConstructor
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%281%29%20%281%29.png)
 
 {% embed url="https://blog.jetbrains.com/idea/2017/10/intellij-idea-2017-3-eap-configurable-command-line-shortener-and-more/" caption="" %}
 
