@@ -153,7 +153,7 @@ TRUNCATE TABLE deletes all records in a table by deallocating the data pages use
 
 DELETE TABLE statements delete rows one at a time, logging each row in the transaction log, as well as maintaining log sequence number \(LSN\) information. Although this consumes more database resources and locks, these transactions can be rolled back if necessary. You can also specify a WHERE clause.
 
-##  **HAVING vs**. WHERE
+## **HAVING vs**. WHERE
 
- The WHERE clause applies the condition to individual rows before the rows are summarized into groups by the GROUP BY clause. However, the **HAVING** clause applies the condition to the groups after the rows are grouped into groups.
+The **WHERE** clause applies the condition to individual rows before the rows are summarized into groups by the GROUP BY clause. However, the **HAVING** clause applies the condition to the groups after the rows are grouped into groups.
 
