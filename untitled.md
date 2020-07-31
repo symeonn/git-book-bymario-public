@@ -17,7 +17,7 @@ Interview checklist
   * beans
 * Sorting algorithms \(java defaults\)
 * Cloud used projects \(Azure: k8s, storage, VMs, Data Factory\)
-* GC
+* [GC](dev/java/gc.md)
 * JWT, oAuth2
 * opisy projektów
 * design patterns
