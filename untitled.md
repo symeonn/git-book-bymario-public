@@ -11,7 +11,7 @@ Interview checklist
   * data
   * security
   * MVC
-  * 
+  * Boot
 * Sorting algorithms \(java defaults\)
 * Cloud used projects \(Azure: k8s, storage, VMs, Data Factory\)
 * GC
@@ -23,4 +23,5 @@ Interview checklist
   * Exceptions
 * Docker
 * RabbitMQ
+* tests \(rodzaje, technologie, frameworki\)
 
