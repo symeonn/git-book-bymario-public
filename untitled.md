@@ -27,6 +27,10 @@ Interview checklist
   * collections
 * Docker
 * RabbitMQ
+* DevOps
+  * jenkins pipelines
+  * jenkins-azure integrations
+  * bash
 * tests \(rodzaje, technologie, frameworki\)
 * my cons and pros
   * stubborn
