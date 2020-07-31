@@ -2,10 +2,10 @@
 
 Interview checklist
 
-* Transactions
+* [@Transactional](dev/spring-1/annotations/transactional.md)
 * ACID [DB](dev/untitled-1.md#acid) 
-* SOLID
-* equals\(\) and hashMap\(\) and hashTable\(buckets\)
+* [SOLID](dev/concepts/solid.md)
+* equals\(\) and hashMap\(\) and hashTable \(buckets\)
 * Spring projects
   * cloud \(gateway, load balancer, config server, service discovery, circuit breaker\)
   * data
