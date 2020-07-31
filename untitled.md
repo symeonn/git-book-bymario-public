@@ -39,6 +39,7 @@ Interview checklist
   * experience
   * vast firld of experience
   * sometime it takes a while to come up with the solution because I like to check more possible solutions 
+* why choose this particular role/job offer/company
 * pytania:
   * dyżury
   * czy pełny scrum \(sprinty, prezentacje, dailies, retrospectives\)
