@@ -14,7 +14,7 @@ Interview checklist
   * Boot
 * Spring:
   * [SPRING](dev/spring-1/#context) context
-  * beans
+  * [SPRING](dev/spring-1/#bean-scopes) beans
 * Sorting algorithms \(java defaults\)
 * Cloud used projects \(Azure: k8s, storage, VMs, Data Factory\)
 * [GC](dev/java/gc.md)
