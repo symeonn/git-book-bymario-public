@@ -3,7 +3,7 @@
 Interview checklist
 
 * Transactions
-* ACID 
+* ACID [DB](dev/untitled-1.md#acid) 
 * SOLID
 * equals\(\) and hashMap\(\) and hashTable\(buckets\)
 * Spring projects
