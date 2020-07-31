@@ -10,7 +10,7 @@ In distributed database system only two of the following can be guaranteed:
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-## ACID \(transactions\)
+## ACID \(transactions\) <a id="acid"></a>
 
 ### Atomicity
 
