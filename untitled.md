@@ -18,13 +18,13 @@ Interview checklist
 * Sorting algorithms \(java defaults\)
 * Cloud used projects \(Azure: k8s, storage, VMs, Data Factory\)
 * [GC](dev/java/gc.md)
-* JWT, oAuth2
+* [Security](dev/security.md) \(JWT, oAuth2\)
 * opisy projektów
-* design patterns
+* [Design Patterns](dev/concepts/untitled.md)
 * JAVA:
-  * generics
+  * [Generics](dev/java/generics.md)
   * Exceptions
-  * collections
+  * [Collections](dev/java/collections.md)
 * Docker
 * RabbitMQ
 * DevOps
