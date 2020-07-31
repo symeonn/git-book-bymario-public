@@ -13,8 +13,8 @@ Interview checklist
   * MVC
   * Boot
 * Spring:
-  * context
-  * beans
+  * context[SPRING](dev/spring-1/#context)
+  * ns
 * Sorting algorithms \(java defaults\)
 * Cloud used projects \(Azure: k8s, storage, VMs, Data Factory\)
 * [GC](dev/java/gc.md)
