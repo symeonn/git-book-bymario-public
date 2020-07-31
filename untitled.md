@@ -3,7 +3,7 @@
 Interview checklist
 
 * [@Transactional](dev/spring-1/annotations/transactional.md)
-* ACID [DB](dev/untitled-1.md#acid) 
+* [DB](dev/untitled-1.md#acid) ACID 
 * [SOLID](dev/concepts/solid.md)
 * equals\(\) and hashMap\(\) and hashTable \(buckets\)
 * Spring projects
@@ -13,8 +13,8 @@ Interview checklist
   * MVC
   * Boot
 * Spring:
-  * context[SPRING](dev/spring-1/#context)
-  * ns
+  * [SPRING](dev/spring-1/#context) context
+  * beans
 * Sorting algorithms \(java defaults\)
 * Cloud used projects \(Azure: k8s, storage, VMs, Data Factory\)
 * [GC](dev/java/gc.md)
