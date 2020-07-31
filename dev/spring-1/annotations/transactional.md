@@ -1,6 +1,6 @@
 # @Transactional
 
-propagation
+### propagation
 
 REQUIRED
 
@@ -16,9 +16,15 @@ NOT\_SUPPORTED
 
 NESTED
 
+### Concurrency side effects
 
+Dirty reads
 
-isolation - prevents all concurrency side effects 
+Nonrepetable reads
+
+Phantom reads
+
+### isolation - prevents all concurrency side effects 
 
 READ\_UNCOMMITED
 
