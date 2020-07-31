@@ -31,6 +31,8 @@ Interview checklist
   * jenkins pipelines
   * jenkins-azure integrations
   * bash
+  * azure
+  * CI/CD
 * tests \(rodzaje, technologie, frameworki\)
 * my cons and pros
   * stubborn
