@@ -33,7 +33,7 @@ Interview checklist
   * bash
   * azure
   * CI/CD
-* tests \(rodzaje, technologie, frameworki\)[Testing](dev/testing/)
+* [Testing](dev/testing/)
 * my cons and pros
   * stubborn
   * experience
