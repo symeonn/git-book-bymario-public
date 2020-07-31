@@ -12,6 +12,9 @@ Interview checklist
   * security
   * MVC
   * Boot
+* Spring:
+  * context
+  * beans
 * Sorting algorithms \(java defaults\)
 * Cloud used projects \(Azure: k8s, storage, VMs, Data Factory\)
 * GC
@@ -21,7 +24,17 @@ Interview checklist
 * JAVA:
   * generics
   * Exceptions
+  * collections
 * Docker
 * RabbitMQ
 * tests \(rodzaje, technologie, frameworki\)
+* my cons and pros
+  * stubborn
+  * experience
+  * vast firld of experience
+  * sometime it takes a while to come up with the solution because I like to check more possible solutions 
+* pytania:
+  * dyżury
+  * czy pełny scrum \(sprinty, prezentacje, dailies, retrospectives\)
+  * 
 
