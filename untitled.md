@@ -25,7 +25,7 @@ Interview checklist
   * [Generics](dev/java/generics.md)
   * Exceptions
   * [Collections](dev/java/collections.md)
-* Docker
+* [Docker](devops/docker.md)
 * RabbitMQ
 * DevOps
   * jenkins pipelines
