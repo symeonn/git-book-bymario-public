@@ -26,7 +26,7 @@ Interview checklist
   * Exceptions
   * [Collections](dev/java/collections.md)
 * [Docker](devops/docker.md)
-* RabbitMQ
+* [Events](dev/events/)
 * DevOps
   * jenkins pipelines
   * jenkins-azure integrations
