@@ -7,7 +7,7 @@ Interview checklist
 * [SOLID](dev/concepts/solid.md)
 * equals\(\) and hashMap\(\) and hashTable \(buckets\)
 * Spring projects
-  * cloud \(gateway, load balancer, config server, service discovery, circuit breaker\)[Cloud](dev/spring-1/cloud/)
+  * [Cloud](dev/spring-1/cloud/)
   * data
   * security
   * MVC
