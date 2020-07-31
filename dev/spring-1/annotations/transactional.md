@@ -18,7 +18,7 @@ NESTED
 
 
 
-isolation
+isolation - prevents all concurrency side effects 
 
 READ\_UNCOMMITED
 
