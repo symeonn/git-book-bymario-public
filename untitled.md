@@ -33,11 +33,11 @@ Interview checklist
   * bash
   * azure
   * CI/CD
-* tests \(rodzaje, technologie, frameworki\)
+* tests \(rodzaje, technologie, frameworki\)[Testing](dev/testing/)
 * my cons and pros
   * stubborn
   * experience
-  * vast firld of experience
+  * vast field of experience
   * sometime it takes a while to come up with the solution because I like to check more possible solutions 
 * why choose this particular role/job offer/company
 * pytania:
