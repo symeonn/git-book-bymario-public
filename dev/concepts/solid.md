@@ -36,7 +36,7 @@ When adding new specification \(behavior\) there is a need to rewrite code base
 ## Liskov substitution
 
 Assume that Q\(x\) means a property of instance **x**, and that **x** is of type T.  
-Than we can say that Q\(y\) is the same property of instance **y** that is of type S,  
+Then we can say that Q\(y\) is the same property of instance **y** that is of type S,  
 when S is subtype of T.
 
 If it looks like a duck, quack like a duck but needs batteries - probably wrong abstraction
