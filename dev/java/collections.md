@@ -54,3 +54,14 @@ miara określająca zachowanie wartości funkcji wraz ze wzrostem ilości jej ar
 
 {% file src="../../.gitbook/assets/java-collections-cheat-sheet.pdf" %}
 
+## equals\(\) and hashMap\(\)
+
+==  - operator for reference comparison, for primitives compares values  
+equals\(\) - method compares data/content od the object depending on implementation
+
+### defaults
+
+Default implementation of equals\(\) method is in Object class, compares if reference to the object is the same
+
+Default implementation of hashCode\(\) converts an internal object address into integer
+
