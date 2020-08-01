@@ -2,6 +2,8 @@
 
 ### JWT
 
+JSON web token
+
 ![header.payload.signature](../.gitbook/assets/image-1.png)
 
 ### OpenID connect
