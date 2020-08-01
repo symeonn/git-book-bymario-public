@@ -69,7 +69,15 @@ hashCode\(\) converts an internal object address into integer
 
 equals\(\)
 
+* REFLECTIVE - for any not-null a: a.equals\(a\) returns true
+* SYMMETRIC - for any not-null a, b: a.equals\(b\) == b.equals\(a\)
+* TRANSITIVE - for any not-null a, b, c: a.equals\(b\) and c.equals\(c\) =&gt; a.equals\(c\)
+* CONSISTENT - for any not-null a, b: multiple calls a.equals\(b\) always return same boolean
+* for any not-null a: a.equals\(null\) always return false
+
 hashCode\(\)
+
+* IDEMPOTENCY - when 
 
 ### why override
 
