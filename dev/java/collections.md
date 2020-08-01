@@ -59,9 +59,17 @@ miara określająca zachowanie wartości funkcji wraz ze wzrostem ilości jej ar
 ==  - operator for reference comparison, for primitives compares values  
 equals\(\) - method compares data/content od the object depending on implementation
 
-### defaults
+### default implementation
 
-Default implementation of equals\(\) method is in Object class, compares if reference to the object is the same
+equals\(\) method is in Object class, compares if reference to the object is the same
 
-Default implementation of hashCode\(\) converts an internal object address into integer
+hashCode\(\) converts an internal object address into integer
+
+### Contract
+
+
+
+### why override
+
+
 
