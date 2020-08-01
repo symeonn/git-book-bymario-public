@@ -20,6 +20,8 @@ internal implementation is HashMap wit constant value="PRESENT"
 
 #### TreeSet
 
+internally uses TreeMap with constant value="PRESENT"
+
 #### LinkedHashSet
 
 ### LIST
@@ -35,6 +37,10 @@ each node has value and reference to the next node
 
 
 ### MAP
+
+#### TreeMap
+
+internally uses the implementation of red-black tree
 
 ## Big O notation \(**Asymptotyczne tempo wzrostu\)**
 
