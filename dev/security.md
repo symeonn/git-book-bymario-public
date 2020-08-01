@@ -1,10 +1,10 @@
 # Security
 
-JWT
+### JWT
 
-![](../.gitbook/assets/image-1.png)
+![header.payload.signature](../.gitbook/assets/image-1.png)
 
-OpenID connect
+### OpenID connect
 
 uses JWT and adds some other usefull endpoints
 
