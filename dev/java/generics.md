@@ -1,5 +1,20 @@
 # Generics
 
+Generics enable types to be parameters when defining classes, interfaces or methods  
+Pros:
+
+* stronger type checks
+* no casts \(ArrayList&lt;Strong&gt;\)
+* enable of implementing algorithms
+
+### Generic type - Class&lt;T&gt;
+
+* E - element used by collections
+* K - key
+* N - number
+* T - type
+* V - value
+
 ### Upper Bounded Wildcards
 
 ```text
