@@ -6,7 +6,7 @@ Design principles encourage us to create more maintainable, understandable, and 
 
 ## Single responsibility
 
-Class should have only one responsibility,only one reason to change \(to be rewritten\), change only when specific part of specification changes. Responsibility should be encapsulated by class, module or function.
+Class should have only one responsibility, only one reason to change \(to be rewritten\), change only when specific part of specification changes. Responsibility should be encapsulated by class, module or function.
 
 **WHY:**  
 It makes class more robust \(krzepki\)
