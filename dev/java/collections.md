@@ -67,9 +67,13 @@ hashCode\(\) converts an internal object address into integer
 
 ### Contract
 
+equals\(\)
 
+hashCode\(\)
 
 ### why override
 
+equals\(\)
 
+hashCode\(\)
 
