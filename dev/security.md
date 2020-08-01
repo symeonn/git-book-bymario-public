@@ -8,7 +8,7 @@
 
 uses JWT and adds some other usefull endpoints
 
-oAuth - it authorizes user
+### oAuth - it authorizes user
 
 three roles: USER, API \(server\), CLIENT \(my app\)
 
