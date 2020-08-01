@@ -8,7 +8,7 @@
 * equals\(\) and hashMap\(\) and hashTable \(buckets\)
 * Spring projects
   * [Cloud](dev/spring-1/cloud/)
-  * data
+  * [SPRING](dev/spring-1/#data) data
   * security
   * MVC
   * Boot

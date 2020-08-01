@@ -49,6 +49,8 @@ Solutions:
 
 ### Data
 
+configuration and connectors to the Redis, MongoDB, Cassandra 
+
 ### Security
 
 ### Boot
