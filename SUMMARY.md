@@ -41,6 +41,7 @@
 
 ## devops
 
+* [CI/CT/CD](devops/ci-ct-cd.md)
 * [Redis](devops/redis.md)
 * [ELK](devops/elk.md)
 * [IJ](devops/untitled-1/README.md)
