@@ -23,7 +23,7 @@
 * [Design Patterns](dev/concepts/untitled.md)
 * JAVA:
   * [Generics](dev/java/generics.md)
-  * Exceptions
+  * [Exceptions](dev/java/exceptions.md)
   * [Collections](dev/java/collections.md)
 * [Docker](devops/docker.md)
 * [Events](dev/events/)
