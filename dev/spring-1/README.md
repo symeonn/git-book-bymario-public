@@ -43,3 +43,15 @@ Solutions:
 * use @Lookup on method - Spring will override method and use method's return type as parameter of getBean
 * user ObjectFactory - will produce new object \(B\) each time we request for it
 
+## SPRING projects
+
+### MVC
+
+### Data
+
+### Security
+
+### Boot
+
+
+
