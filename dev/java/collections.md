@@ -16,15 +16,21 @@
 
 #### HashSet
 
+internal implementation is HashMap wit constant value="PRESENT"
+
 #### TreeSet
 
 #### LinkedHashSet
 
 ### LIST
 
-#### ArrayList - dynamically array stores value and index
+#### ArrayList
 
-#### Linked list - each node has value and reference to the next node
+dynamical array stores value and index, internally it uses Object\[\]
+
+#### Linked list
+
+each node has value and reference to the next node
 
 
 
