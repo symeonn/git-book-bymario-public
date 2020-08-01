@@ -10,7 +10,7 @@ JSON web token
 
 uses JWT and adds some other usefull endpoints
 
-### oAuth - it authorizes user
+### oAuth2 - it authorizes user
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
