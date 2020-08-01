@@ -5,7 +5,7 @@
 * [@Transactional](dev/spring-1/annotations/transactional.md)
 * [DB](dev/untitled-1.md#acid) ACID 
 * [SOLID](dev/concepts/solid.md)
-* equals\(\) and hashMap\(\) and hashTable \(buckets\)
+* equals\(\) and hashMap\(\) and hashTable \(buckets\) [Collections](dev/java/collections.md#equals-and-hashmap)
 * Spring projects
   * [Cloud](dev/spring-1/cloud/)
   * [SPRING](dev/spring-1/#data) data
