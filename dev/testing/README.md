@@ -8,7 +8,7 @@ Tests by level:
 * Integration tests
 * System tests
 
-Tests by testing metchods:
+Tests by testing methods:
 
 * Black-box testing - behavioral testing, INPUT and OUTPUT matters
 * White-box testing - choose INPUT that goes through the code \(Unit testing\)

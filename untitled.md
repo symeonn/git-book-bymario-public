@@ -32,7 +32,7 @@
   * jenkins-azure integrations
   * bash
   * azure
-  * CI/CD
+  * [CI/CT/CD](devops/ci-ct-cd.md)
 * [Testing](dev/testing/)
 * my cons and pros
   * stubborn
