@@ -45,5 +45,5 @@
   * czy pełny scrum \(sprinty, prezentacje, dailies, retrospectives\)
   * what will be my role in the team and organization
   * my biggest challenges
-  * 
+  * what will be most interesting in the role
 
