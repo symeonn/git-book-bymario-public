@@ -1,5 +1,5 @@
 ---
-description: 'Continuous Integration, Continuous Testing, Continuous Deployment'
+description: 'Continuous Integration, Continuous Testing, Continuous Delivery'
 ---
 
 # CI/CT/CD
