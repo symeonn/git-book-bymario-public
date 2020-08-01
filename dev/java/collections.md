@@ -75,5 +75,11 @@ hashCode\(\)
 
 equals\(\)
 
+* if not override, default implementation will be used that compared reference to objects
+* when override hc\(\) only, we may get same HC for different objects and and put into same bucket and it may decrease performance of search because objects are not equally distributed in the buckets
+
 hashCode\(\)
+
+* if override only equals\(\) we may get different HC for objects considered equal \(by equals\(\) method\) hence comparison may return false for these objects
+* not override hc\(\) will break the contract
 
