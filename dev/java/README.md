@@ -12,6 +12,9 @@ doesn't change the contract
 
 ## [Functional Interface](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)
 
+[@FunctionalInterface](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html) is example of utilizing functional programming paradigm in Java.  
+It is used by lambda expressions.
+
 Conceptually, a functional interface has exactly one abstract method.
 
 * interface with Single Abstract Method \(SAM\)
