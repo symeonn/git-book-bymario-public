@@ -36,7 +36,8 @@ So if you see `~1.0.2` it means to install version `1.0.2` or the latest patch v
 
 ### Functional programming
 
-use function without side-effects, only return the result and combine with another and set as parameter of another function. Avoid changing state or mutation.
+use function without side-effects, only return the result and combine with another and set as parameter of another function. Avoid changing state or mutation.  
+[@FunctionalInterface](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html) is example of utilizing this paradigm in Java
 
 ### Procedural programming
 

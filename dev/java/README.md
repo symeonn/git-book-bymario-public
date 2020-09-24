@@ -12,6 +12,8 @@ doesn't change the contract
 
 ## [Functional Interface](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)
 
+Conceptually, a functional interface has exactly one abstract method.
+
 * interface with Single Abstract Method \(SAM\)
 * can have many Default Methods
 * all have one or two input operators variants
