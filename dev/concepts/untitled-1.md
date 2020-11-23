@@ -2,7 +2,7 @@
 description: SOAP vs. REST
 ---
 
-# Untitled
+# WebService
 
 ## SOAP
 
