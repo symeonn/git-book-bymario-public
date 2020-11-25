@@ -57,7 +57,7 @@ When add new subclass and not all properties or methods are applicable or method
 
 It is better to have more smaller, client specific interfaces than fewer vast, more general ones
 
-Big interface put al unnecessary properties on all lower hierarchy
+Big interface put all unnecessary properties on all lower hierarchy
 
 Being small favoring Compose over Inheritance
 
