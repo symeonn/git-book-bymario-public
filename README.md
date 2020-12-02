@@ -4,5 +4,5 @@ Groups
 
 * DEV
 * DEVOPS
-* and other
+* OTHERS
 

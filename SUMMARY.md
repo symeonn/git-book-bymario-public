@@ -55,8 +55,8 @@
 * [microservices](devops/microservices.md)
 * [MONITORING](devops/monitoring.md)
 
----
+## OTHERS <a id="other"></a>
 
-* [INTERVIEW](untitled.md)
-* [ABBR](abbr.md)
+* [INTERVIEW](other/untitled-1.md)
+* [ABBR](other/abbr.md)
 
