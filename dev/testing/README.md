@@ -32,3 +32,7 @@ testing the actual behavior of the system from the end users perspective
 
 We don’t mind how you come up with the output, only that the output has to be correct under the GIVEN condition.
 
+### SOURCES
+
+[https://softwaretestingfundamentals.com/](https://softwaretestingfundamentals.com/)
+
