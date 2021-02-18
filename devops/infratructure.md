@@ -2,7 +2,10 @@
 
 ## Spring Cloud Netflix
 
-Service Discovery \(Eureka\), Circuit Breaker \(Hystrix\), Intelligent Routing \(Zuul\) and Client Side Load Balancing \(Ribbon\)
+Service Discovery \(Eureka\)  
+Circuit Breaker \(Hystrix\)  
+Intelligent Routing \(Zuul\)  
+Client Side Load Balancing \(Ribbon\)
 
 ### 1. Features <a id="user-content-features"></a>
 
