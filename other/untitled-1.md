@@ -44,7 +44,15 @@
   * dyżury
   * czy pełny scrum \(sprinty, prezentacje, dailies, retrospectives\)
   * what will be my role in the team and organization
-  * my biggest challenges
+  * what will be my biggest/overall challenges
   * what will be most interesting in the role
-  * remote work
+  * remote work in what size
+  * travels
+  * how my work will be rated
+  * what are the path of my development on this position
+  * what skills I need to succeed on this position
+  * expectations regarding me
+  * what I should focus most in first month of work
+  * Initial trainings/work buddy
+  * 
 
