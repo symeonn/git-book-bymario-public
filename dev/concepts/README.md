@@ -60,3 +60,7 @@ void getEntity() {
 
 functionalities and data are encapsulated into objects. Selection of objects happens in the runtime.
 
+### Declarative programming
+
+TODO
+
