@@ -51,7 +51,11 @@ pre-cond: base - work with int; sub - work with positive only int NOT WEAKER
 post-cond: base - work with positive int; sub - work with negative int NOT STRONGER
 
 **WHEN BREAKS:**  
-When add new subclass and not all properties or methods are applicable or methods should behave differently
+When add new subclass and not all properties or methods are applicable or methods should behave differently. Or UnsupportedOperationException is one example
+
+{% embed url="https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html" %}
+
+
 
 ## Interface segregation
 
