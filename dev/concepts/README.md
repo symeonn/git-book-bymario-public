@@ -12,7 +12,7 @@ Includes bug fixes/documentation spelling mistakes etc.
 
 ### _1b._ Minor version
 
-Includes additions of functions or API which does not break anything from the older versions So anything that runs on v1.1.0 should work on v1.9.0 as well.
+Includes additions of functions or API which does not break anything from the older versions So anything that runs on v1.1.0 should work on v1.9.0 as well. Backward compatible.
 
 ### _1c._ Major version
 
