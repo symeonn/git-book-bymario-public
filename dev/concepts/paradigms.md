@@ -2,8 +2,11 @@
 
 ## Functional Programming
 
-use function without side-effects, only return the result and combine with another and set as parameter of another function. Avoid changing state or mutation.\
-\
+* use function without side-effects
+* only return the result and combine with another and set as parameter of another function
+* Avoid changing state or mutation.
+* do not use assignment statements
+
 [Functional programming in java.](../java/#functional-interface)
 
 ## Procedural Programming
