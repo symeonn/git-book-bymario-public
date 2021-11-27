@@ -61,3 +61,4 @@
     * try should be the first word in the function after variable declaration
     * there should be single line in body of the try block
     * catch and finally should be last statements in the method
+  * error handling is one thing so method should do some computation or handle errors, never both (??)&#x20;
