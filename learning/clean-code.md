@@ -51,7 +51,7 @@
 * do not return NULL to indicate error, throw exceptions instead - when method needs to return NULL (ex. find - nothing has been found) but not to indicate the error, caller can/should expect NULL from that function **NULL MEANS NOTHING**
 * Tell, Don't Ask
   * tell objects what to do, but do not ask them what is their state
-  * we ask also about objects in objects and this leads to **Train Wrecks **(o.getX().getZ().getY().doSomething())  it valioates **Law of Demeter**
+  * we ask also about objects in objects and this leads to **Train Wrecks **(o.getX().getZ().getY().doSomething())  it valioates **Law of Demeter **(too much knowledge in single line)
 * Error Handling
   * write EH first before rest of the code
   * prefer throwing exception instead return null or false&#x20;
