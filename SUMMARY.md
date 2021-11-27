@@ -35,6 +35,7 @@
   * [Generics](dev/java/generics.md)
   * [Collections](dev/java/collections.md)
 * [CONCEPTS](dev/concepts/README.md)
+  * [Paradigms](dev/concepts/paradigms.md)
   * [Process vs thread](dev/concepts/process-vs-thread.md)
   * [WebService TODO](dev/concepts/untitled-1.md)
   * [SOLID](dev/concepts/solid.md)
@@ -62,8 +63,7 @@
 
 * [Untitled](nodev/untitled.md)
 
-## OTHERS <a id="other"></a>
+## OTHERS <a href="other" id="other"></a>
 
 * [INTERVIEW](other/untitled-1.md)
 * [ABBR](other/abbr.md)
-
