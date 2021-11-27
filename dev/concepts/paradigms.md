@@ -29,7 +29,13 @@ void getEntity() {
 
 ## Structured Programming
 
+All algorithms should be composed of 3 elements, having single entrance on the top and single exit at the bottom (one return statement, at best):
 
+* sequence - arrangement of two blocks, exit of the first one feeds entry of the second
+* selection - boolean that breaks the flow to different blocks
+* iteration - repeated execution of the block, until exit statement is satisfied
+
+If you compose the algorithm of these 3 blocks, they may be sequential because they do not depend on each other
 
 ## Object-Oriented Programming
 
