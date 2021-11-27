@@ -67,3 +67,7 @@
 
 * [INTERVIEW](other/untitled-1.md)
 * [ABBR](other/abbr.md)
+
+## LEARNING
+
+* [Clean Code](learning/clean-code.md)

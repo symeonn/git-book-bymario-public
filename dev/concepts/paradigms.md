@@ -6,6 +6,8 @@
 * only return the result and combine with another and set as parameter of another function
 * Avoid changing state or mutation.
 * do not use assignment statements
+* functions are true mathematical function - always return the same value for the same input (no global or side state is taken into consideration)
+*
 
 [Functional programming in java.](../java/#functional-interface)
 
