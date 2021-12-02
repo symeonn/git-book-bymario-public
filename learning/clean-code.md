@@ -45,20 +45,35 @@
 * side effects
   * if global variables or overall state is influencing lots on places it causes the method to be called in certain order (is this a part of [#procedural-programming](../dev/concepts/paradigms.md#procedural-programming "mention") ?) - this is temporary coupling to the application state
   * Solution: **passing the block**. Passing as a method argument the block of commands, ie. hiding dependent method in another method
-  * Another solution: **separate commands and queries **(example: setters and getters)** **
+  * Another solution: **separate commands and queries** (example: setters and getters) ****&#x20;
     * commands: changes the state of the system, it has a side effect
     * queries: returns the value of the computation or state of the system
 * do not return NULL to indicate error, throw exceptions instead - when method needs to return NULL (ex. find - nothing has been found) but not to indicate the error, caller can/should expect NULL from that function **NULL MEANS NOTHING**
 * Tell, Don't Ask
   * tell objects what to do, but do not ask them what is their state
-  * we ask also about objects in objects and this leads to **Train Wrecks **(o.getX().getZ().getY().doSomething())  it valioates **Law of Demeter **(too much knowledge in single line)
-* Error Handling
-  * write EH first before rest of the code
-  * prefer throwing exception instead return null or false&#x20;
-  * exception should be scoped to the context of the caller and named with specific information possible
-  * use unchecked exception, extend RuntimeException - it creates dependencies (ex. method that throws exception is changed)
-  * try block rules:
-    * try should be the first word in the function after variable declaration
-    * there should be single line in body of the try block
-    * catch and finally should be last statements in the method
-  * error handling is one thing so method should do some computation or handle errors, never both (??)&#x20;
+  * we ask also about objects in objects and this leads to **Train Wrecks** (o.getX().getZ().getY().doSomething())  it valioates **Law of Demeter** (too much knowledge in single line)
+*   Error Handling
+
+    * write EH first before rest of the code
+    * prefer throwing exception instead return null or false&#x20;
+    * exception should be scoped to the context of the caller and named with specific information possible
+    * use unchecked exception, extend RuntimeException - it creates dependencies (ex. method that throws exception is changed)
+    * try block rules:
+      * try should be the first word in the function after variable declaration
+      * there should be single line in body of the try block
+      * catch and finally should be last statements in the method
+    * error handling is one thing so method should do some computation or handle errors, never both (??)
+
+
+
+## Form
+
+#### Comments
+
+* do not use comments
+* if you find the comment - remove it
+* if you must comment - do it locally
+* commented out code? REMOVE
+*
+
+## &#x20;
