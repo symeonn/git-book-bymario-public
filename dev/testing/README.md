@@ -6,8 +6,8 @@
 
 Tests by level:
 
-* Unit tests
-* Integration tests
+* Unit tests - developer perspective tests, helps build the product right (verification)
+* Integration tests - test communication between modules or systems
 * System tests
 
 Tests by testing methods:
@@ -19,7 +19,7 @@ Tests by type:
 
 * Regression testing - ensures that changes to the software does not brake any part of it
 * Performance testing
-* Functional testing - testing requirements/specifications (functions) of the application
+* Functional testing - testing requirements/specifications (functions) of the application, UI testing, user perspective tests, helps build the right product (validation)
 * Smoke testing - Build Verification Testing, light part of test just to confirm that app is bootable and most important functions work, build is stable enough for further testing
 
 ### TDD
