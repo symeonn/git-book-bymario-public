@@ -74,6 +74,44 @@
 * if you find the comment - remove it
 * if you must comment - do it locally
 * commented out code? REMOVE
-*
+
+#### Classes
+
+from the outside perspective classes are a set of methods
+
+Cohesive class - the class that has methods that operate on as much as possible (private) class variables&#x20;
+
+getters and setters do not produce cohesive classes because they operate only on one variable each
+
+instead getters or setters - abstract the access to internal variables, this will increase polymorphism and independent deploybility&#x20;
+
+Object protects client from new types - derivative object can be still used in place of parent object\
+add new type all SWITCH needs to be modified - do not use SWITCH on objects
+
+but do not protect from new method (behavior) - add new methods all child classes needs to be compiled
+
+user classes with behaviors when more types to be added later
+
+#### Data structure
+
+opposite to the class has public variables (via getters and setters) and has no methods (no behavior), do not put business rules in them
+
+Data structure protects from new methods - when adding new one, just add new method with new SWITCH (added not on data structure but somewhere else)
+
+But when adding new data structure type - need to change all SWITCH that are depend on them
+
+user Data structures and switch statements when new methods to be added later on
+
+#### Boundaries
+
+they separate abstract and concrete parts of code, in a way that abstract should not depend on concrete but **concrete should depend on abstract** (code dependency)
+
+Examples:
+
+* main (concrete) separate from app (abstract)
+* view (concrete) separates from models (abstract)
+* BD (concrete) from domain objects (abstract)
+
+Can use intermidiate layer to separate layers (create boundaries)
 
 ## &#x20;
