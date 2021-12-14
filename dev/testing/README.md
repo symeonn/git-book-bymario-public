@@ -26,7 +26,9 @@ Tests by type:
 
 test is written to check the implementation of functionality
 
-&#x20;We don’t care much about the output. The only thing needed is to carry out the test in a particular way.
+We don’t care much about the output. The only thing needed is to carry out the test in a particular way.
+
+Internal application tests
 
 #### Testy inkrementacyjne
 
@@ -40,7 +42,11 @@ testing the actual behavior of the system from the end users perspective
 
 We don’t mind how you come up with the output, only that the output has to be correct under the GIVEN condition.
 
-*
+External application tests
+
+business people do not want to do the BDD
+
+business rules are tested
 
 ### SOURCES
 

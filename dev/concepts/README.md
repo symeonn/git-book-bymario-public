@@ -39,3 +39,7 @@ So if you see `~1.0.2` it means to install version `1.0.2` or the latest patch v
 model - controller - view
 
 <--------------------------- outside-in
+
+### MMF
+
+Minimal Marketable Feature - has hypothesis to prove using given metrics
