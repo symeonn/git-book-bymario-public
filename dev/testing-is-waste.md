@@ -1,3 +1,7 @@
+---
+description: 'From: https://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf'
+---
+
 # Testing is Waste?
 
 Computers computed, functions and procedures represented computation unit.
@@ -13,3 +17,7 @@ Most cost effective places to remove bugs are during transition from analysis to
 The purpose of tests is to create information about your program.
 
 Low risk tests have low payoff. If it always shows positive answers - what is the purpose of this test.&#x20;
+
+While developers run the tests, they are _doing_ and not _thinking_
+
+__

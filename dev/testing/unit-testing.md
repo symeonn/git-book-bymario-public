@@ -27,3 +27,5 @@ Tests to remove:
 
 more UT - more code to maintain
 
+When have lots of UT, when functionality change, we have to change lots of tests
+

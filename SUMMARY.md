@@ -8,6 +8,7 @@
   * [RabbitMQ](dev/events/rabbitmq.md)
 * [Soft skills](dev/soft-skills.md)
 * [Testing](dev/testing/README.md)
+  * [Stateful tests](dev/testing/stateful-tests.md)
   * [Mockito](dev/testing/mockito.md)
   * [PBT](dev/testing/pbt.md)
   * [JUnit 5](dev/testing/junit-5.md)
