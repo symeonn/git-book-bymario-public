@@ -18,3 +18,12 @@ UT is valuable when it fails - gives the information about system
 
 Maybe instead of deleting UT tests after implementation, to keep them valuable, use PBT so UT every time will check something else, thus will be valuable
 
+Tests to remove:
+
+* Tests that never fails
+* Tests that do not have to change when functionality change
+* Tests always  true, valid
+* Tests that when fails, we do not know what business requirement failed
+
+more UT - more code to maintain
+
