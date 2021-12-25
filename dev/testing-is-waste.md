@@ -1,7 +1,3 @@
----
-description: 'From: https://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf'
----
-
 # Testing is Waste?
 
 Computers computed, functions and procedures represented computation unit.
