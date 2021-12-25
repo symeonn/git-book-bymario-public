@@ -10,7 +10,7 @@ In distributed database system only two of the following can be guaranteed:
 
 ![](<../.gitbook/assets/image (4).png>)
 
-## ACID (transactions) <a href="acid" id="acid"></a>
+## ACID (transactions) <a href="#acid" id="acid"></a>
 
 ### Atomicity
 
@@ -135,10 +135,10 @@ tracing on;
 
 ### Get started with cassandra on docker
 
-`$ winpty docker exec -it cassandra-db bash  `\
-`cqlsh  `\
-`desc keyspaces;  `\
-`use <keyspace>;  `\
+`$ winpty docker exec -it cassandra-db bash`  \
+`cqlsh`  \
+`desc keyspaces;`  \
+`use <keyspace>;`  \
 `desc tables;`
 
 ## Other:
@@ -155,4 +155,4 @@ DELETE TABLE statements delete rows one at a time, logging each row in the trans
 
 ## **HAVING vs**. WHERE
 
-The **WHERE **clause applies the condition to individual rows before the rows are summarized into groups by the GROUP BY clause. However, the **HAVING** clause applies the condition to the groups after the rows are grouped into groups.
+The **WHERE** clause applies the condition to individual rows before the rows are summarized into groups by the GROUP BY clause. However, the **HAVING** clause applies the condition to the groups after the rows are grouped into groups.

@@ -29,7 +29,7 @@ dynamic web page, REST API
 #### Bean annotations
 
 **@Component** - during ComponentScan Spring automatically detects beans with this annotation\
-**@Repository **- data access layer class (translates persistence framework exeptions to DataAccessExeptions)\
+**@Repository** - data access layer class (translates persistence framework exeptions to DataAccessExeptions)\
 **@Service** - business logic class\
 **@Controller** - MVC\
 **@Configuration** - contains bean definition methods&#x20;
@@ -39,7 +39,7 @@ dynamic web page, REST API
 When have prototype bean (B) in singleton bean (A), the B is initialized only once when A is initialized.\
 Solutions:
 
-* Injecting _ApplicationContext - _so we can initialize each time we do getBean
+* Injecting _ApplicationContext -_ so we can initialize each time we do getBean
 * use @Lookup on method - Spring will override method and use method's return type as parameter of getBean
 * user ObjectFactory - will produce new object (B) each time we request for it
 

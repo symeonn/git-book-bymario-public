@@ -35,8 +35,8 @@ When adding new specification (behavior) there is a need to rewrite code base
 
 ## Liskov substitution
 
-Assume that Q(x) means a property of instance **x**, and that **x **is of type T.\
-Then we can say that Q(y) is the same property of instance **y **that is of type S,\
+Assume that Q(x) means a property of instance **x**, and that **x** is of type T.\
+Then we can say that Q(y) is the same property of instance **y** that is of type S,\
 when S is subtype of T.
 
 If it looks like a duck, quack like a duck but needs batteries - probably wrong abstraction
@@ -44,7 +44,7 @@ If it looks like a duck, quack like a duck but needs batteries - probably wrong 
 **WHY:**\
 Any system should be working with any implementation of interface
 
-**HOW: **\
+**HOW:** \
 By using pre-conditions of methods to be weaker and post-conditions to be stronger\
 ex: \
 pre-cond: base - work with int; sub - work with positive only int NOT WEAKER\

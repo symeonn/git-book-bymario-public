@@ -79,7 +79,7 @@ hashCode()
 
 * IDEMPOTENCY - whencall hc() on the same object, it has to return same Integer every time if the object hasn't changed
 * if two objects are equal (by equals() method) hc() has to return same HC
-* it is **NOT** required that if two objects are **NOT **equal (by equals() method), hc() must produce distinct Integer, however it may improve performance (because different objects will be put into different buckets)&#x20;
+* it is **NOT** required that if two objects are **NOT** equal (by equals() method), hc() must produce distinct Integer, however it may improve performance (because different objects will be put into different buckets)&#x20;
 
 ### why override
 

@@ -2,7 +2,7 @@
 
 ## Default Methods
 
-added with _**default **_keyword to the interface
+added with _**default**_ keyword to the interface
 
 do not require imlementation in the implementing class
 
@@ -55,7 +55,7 @@ Take input values and return value of the same type (reduce)
 * keep lambda short:
   * do not use () for one argument functions
   * do not use multiline functions in lambda
-  * do not use _**return **_and {} in one line functions
+  * do not use _**return**_ and {} in one line functions
   * do not state parameter type (?)
   * use method reference (ex: String::toLowerCase)
-* use _**effective final **_in lambdas - it is variable that is assigned once so it is implied "final"
+* use _**effective final**_ in lambdas - it is variable that is assigned once so it is implied "final"

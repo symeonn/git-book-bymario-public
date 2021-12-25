@@ -21,7 +21,7 @@ Pros:
 public static void process(List<? extends Foo> list) { /* ... */ }
 ```
 
-The upper bounded wildcard, \<? extends Foo>, where Foo is any type, matches Foo and any **subtype **of Foo.
+The upper bounded wildcard, \<? extends Foo>, where Foo is any type, matches Foo and any **subtype** of Foo.
 
 ### Unbounded Wildcards
 
@@ -50,4 +50,4 @@ printList(ls);
 public static void addNumbers(List<? super Integer> list) {
 ```
 
-method that works on lists of Integer and the **supertypes **of Integer, such as Integer, Number, and Object
+method that works on lists of Integer and the **supertypes** of Integer, such as Integer, Number, and Object
