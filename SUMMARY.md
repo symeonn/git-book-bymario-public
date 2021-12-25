@@ -14,6 +14,8 @@
   * [unit testing](dev/testing/unit-testing.md)
   * [Contract testing](dev/testing/contract-testing.md)
   * [front](dev/testing/front.md)
+* [Regression tests](dev/regression-tests.md)
+* [Testing is Waste?](dev/testing-is-waste.md)
 * [Front](dev/front/README.md)
   * [AngularJS](dev/front/angularjs.md)
 * [Security](dev/security.md)
