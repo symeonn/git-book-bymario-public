@@ -1,5 +1,7 @@
 # TDD
 
+## Discipline for professionalism
+
 ### 3 laws
 
 * NO production code before test code
