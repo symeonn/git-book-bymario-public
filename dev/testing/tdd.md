@@ -17,3 +17,5 @@ Whenever you write code and need to add static variable or flag, something must 
 
 it is common to delete tests when progressing with TDD - these are not valid anymore
 
+if there is something wrong with the design or you cannot make the test pass easily, step back one, Ignore the test and refactor previous written code
+
