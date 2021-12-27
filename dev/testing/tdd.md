@@ -15,3 +15,5 @@ When in GREEN phase, even though we could take shortcut and make the test pass r
 
 Whenever you write code and need to add static variable or flag, something must be wrong with the design
 
+it is common to delete tests when progressing with TDD - these are not valid anymore
+
