@@ -4,14 +4,17 @@
 
 ### 3 laws
 
-* NO production code before test code
-*
+* NO production code before failing unit test
+* write only ENOUGH test code to demonstrate the failure
+* write only ENOUGH production code to make failing test to pass&#x20;
 
 ### 3 phases
 
 * RED
 * GREEN
 * REFACTOR
+
+TDD neglects the fear of change
 
 When in GREEN phase, even though we could take shortcut and make the test pass right away, it is good to return failed value to make sure that the test will fail and then, right away, return the correct to make the test pass. In this way we know that this test can fail
 
