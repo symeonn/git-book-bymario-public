@@ -38,7 +38,7 @@
   * [GC](dev/java/gc.md)
   * [Generics](dev/java/generics.md)
   * [Collections](dev/java/collections.md)
-* [Design](dev/design/README.md)
+* [Design](dev/design.md)
   * [Architecture](dev/design/architecture.md)
 * [CONCEPTS](dev/concepts/README.md)
   * [Paradigms](dev/concepts/paradigms.md)

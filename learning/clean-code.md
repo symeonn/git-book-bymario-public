@@ -120,8 +120,6 @@ see [tdd.md](../dev/testing/tdd.md "mention")
 
 ## Architecture
 
-{% content-ref url="../dev/design/architecture.md" %}
-[architecture.md](../dev/design/architecture.md)
-{% endcontent-ref %}
+see [architecture.md](../dev/design/architecture.md "mention")
 
 ## &#x20;
