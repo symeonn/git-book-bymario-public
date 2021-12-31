@@ -28,9 +28,11 @@ delivery mechanisms are the details (not abstractions - see the dependency direc
 
 we use words and conccepts that do not suggest delivery mechanisms
 
-use cases are the formal description how user interacts with the system in order to achieve a specific goal (for example "happy path")&#x20;
+use cases are the formal description how user interacts with the system in order to achieve a specific goal (for example "happy path"), there is albo exception path
 
 delivery independent architecture is delivery independent use cases
+
+use case might be considered as algorithm that takes input data and generates output data
 
 
 
