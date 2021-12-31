@@ -118,4 +118,10 @@ Can use intermidiate layer to separate layers (create boundaries)
 
 see [tdd.md](../dev/testing/tdd.md "mention")
 
+## Architecture
+
+{% content-ref url="../dev/design/architecture.md" %}
+[architecture.md](../dev/design/architecture.md)
+{% endcontent-ref %}
+
 ## &#x20;
