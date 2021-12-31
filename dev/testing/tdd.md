@@ -20,6 +20,8 @@ TDD created low level documentation that is always up to date&#x20;
 
 TDD creates testable and decoupled production code
 
+TDD is the best way to know that the code works
+
 ### Legacy code
 
 find small part of code you can write test to, then use those tests to refactor tested code, or when new feature is added to legacy code use TDD to implement this new feature
