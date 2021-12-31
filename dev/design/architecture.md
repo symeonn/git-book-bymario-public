@@ -14,7 +14,9 @@ Architecture is not about tools and building materials, it is about **usage, how
 
 Arch of program screams the intention of that program like architecture of church screams church intention
 
-Use cases not coupled to delivery mechanisms (UI, DB)
+Use cases not coupled to delivery mechanisms (UI, DB) - design the structure that decouples you from them and make them irrelevant
+
+separating those allow business people to measure the costs and ration between cost of different aspects of the system
 
 
 
