@@ -16,7 +16,23 @@ Arch of program screams the intention of that program like architecture of churc
 
 Use cases not coupled to delivery mechanisms (UI, DB) - design the structure that decouples you from them and make them irrelevant
 
-separating those allow business people to measure the costs and ration between cost of different aspects of the system
+separating those allow business people to measure the costs and ration between cost of different aspects of the system - cost vs value analysis
+
+### Use cases
+
+when desinging system think of USE CASES, what system do (not how to do)
+
+models are not business objects
+
+delivery mechanisms are the details (not abstractions - see the dependency directions) these should be able to be substituted at any point of time
+
+we use words and conccepts that do not suggest delivery mechanisms
+
+use cases are the formal description how user interacts with the system in order to achieve a specific goal (for example "happy path")&#x20;
+
+delivery independent architecture is delivery independent use cases
+
+
 
 
 
