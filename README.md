@@ -2,6 +2,8 @@
 
 ## SMALLER IS BETTER
 
+software craftsman
+
 Groups
 
 * DEV
