@@ -2,6 +2,10 @@
 
 ## Good architecture is about deferring decisions about UI, DB, service layer, frameworks, web servers etc.&#x20;
 
+## Keep options open for as long as possible
+
+## It maximizes the number of decisions NOT made&#x20;
+
 Architecture is about whole high level concepts and low level implementation details
 
 programmers are architectures
