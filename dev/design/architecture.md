@@ -34,6 +34,11 @@ delivery independent architecture is delivery independent use cases
 
 use case might be considered as algorithm that takes input data and generates output data
 
+### Example:
+
+consider UI and backend. UI is a plugin. Backend is exposing endpoints and do not know anything about who is going to read from it. UI needs to know about backend, know what are the endpoints and how requests and responses looks like. \
+This approach can be applied to every components on every level (server level too?) and it is easy to understand.
+
 
 
 
