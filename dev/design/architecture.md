@@ -38,7 +38,9 @@ use case might be considered as algorithm that takes input data and generates ou
 
 Entities: Application **independent** business rules
 
-Interactors: Application **specific** business rules
+Interactors: Application **specific** business rules (aka. Use Case)
+
+Boundary: isolate Use Cases form delivery mechanism and provide communication between&#x20;
 
 ### Example:
 
