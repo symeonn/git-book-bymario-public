@@ -3,9 +3,9 @@
 ### Interview checklist
 
 * [@Transactional](../dev/spring-1/annotations/transactional.md)
-* [DB](../dev/untitled-1.md#acid) ACID 
+* [DB](../dev/untitled-1.md#acid) ACID&#x20;
 * [SOLID](../dev/concepts/solid.md)
-* equals\(\) and hashMap\(\) and hashTable \(buckets\) [Collections](../dev/java/collections.md#equals-and-hashmap)
+* equals() and hashMap() and hashTable (buckets) [Collections](../dev/java/collections.md#equals-and-hashmap)
 * Spring projects
   * [Cloud](../dev/spring-1/cloud/)
   * [SPRING](../dev/spring-1/#data) data
@@ -15,10 +15,10 @@
 * Spring:
   * [SPRING](../dev/spring-1/#context) context
   * [SPRING](../dev/spring-1/#bean-scopes) beans
-* Sorting algorithms \(java defaults\)
-* Cloud used projects \(Azure: k8s, storage, VMs, Data Factory\)
+* Sorting algorithms (java defaults)
+* Cloud used projects (Azure: k8s, storage, VMs, Data Factory)
 * [GC](../dev/java/gc.md)
-* [Security](../dev/security.md) \(JWT, oAuth2\)
+* [Security](../dev/security.md) (JWT, oAuth2)
 * opisy projektów
 * [Design Patterns](../dev/concepts/untitled.md)
 * JAVA:
@@ -38,11 +38,11 @@
   * stubborn
   * experience
   * vast field of experience
-  * sometime it takes a while to come up with the solution because I like to check more possible solutions 
+  * sometime it takes a while to come up with the solution because I like to check more possible solutions&#x20;
 * why choose this particular role/job offer/company
 * pytania:
   * dyżury
-  * czy pełny scrum \(sprinty, prezentacje, dailies, retrospectives\)
+  * czy pełny scrum (sprinty, prezentacje, dailies, retrospectives)
   * what will be my role in the team and organization
   * what will be my biggest/overall challenges
   * what will be most interesting in the role
@@ -54,5 +54,6 @@
   * expectations regarding me
   * what I should focus most in first month of work
   * Initial trainings/work buddy
-  * 
-
+  * lines count of your biggest class
+  * number of issues in sonar
+  *
