@@ -56,4 +56,4 @@
   * Initial trainings/work buddy
   * lines count of your biggest class
   * number of issues in sonar
-  *
+  * how You would describe overall complexity of code
