@@ -7,7 +7,7 @@
 * Avoid changing state or mutation.
 * do not use assignment statements
 * functions are true mathematical function - always return the same value for the same input (no global or side state is taken into consideration)
-*
+* keep data and functions separate
 
 [Functional programming in java.](../java/#functional-interface)
 
