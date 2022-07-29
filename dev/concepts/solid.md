@@ -89,7 +89,7 @@ Depend on abstraction, not on details (implementation)
 Increases testability because can inject mocks into another objects or methods
 
 **HOW:**\
-****Extract behaviors, create abstraction of these behaviors and inject them as dependencies in "constructor injection" or "parameter injection"
+****Extract behaviors, create abstraction of these behaviors and inject them as dependencies in "constructor injection" or "parameter injection", can use dynamic polymorphism
 
 **WHEN BREAKS:**\
 ****"new" keyword is the signal for checking, instantiating low-level objects in methods or in another high-level objects
