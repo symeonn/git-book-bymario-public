@@ -29,7 +29,7 @@
 * above is **Defencing Programming, a code smell** (not applying to public API where you need to validate)
 * **Stepdown Rule** - public methods goes at the top and preferably call hierarchy is reflected in methods order (in code: up - more abstract; down more detailed)
 * SWITCH statement are no OOP and it is missed opportunity to use polymorphism
-  * A: Dependency between objects (cannot be deployed separately):![](<../.gitbook/assets/image (13).png>)
+  * A: Dependency between objects (cannot be deployed separately):<img src="../.gitbook/assets/image (13).png" alt="" data-size="original">
   * B: using OO we can change source code dependency (can be deployed separately):![](<../.gitbook/assets/image (12).png>)
   * SWITCH is considered to be a A solution (a fan-out problem) - each CASE is like separate module so SWITCH creates dependencies to these modules
   * solutions:
@@ -122,4 +122,6 @@ see [tdd.md](../dev/testing/tdd.md "mention")
 
 see [architecture.md](../dev/design/architecture.md "mention")
 
-## &#x20;
+## &#x20;SOLID
+
+&#x20;check logseq
